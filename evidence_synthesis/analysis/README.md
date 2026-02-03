@@ -1,6 +1,6 @@
 # Evidence synthesis analysis
 
-This folder contains a lightweight, runnable pipeline for the **DLN-stage moderator meta-analysis** program described in Paper 2.
+This folder contains a lightweight, runnable pipeline for the **DLN-stage moderator meta-analysis** program.
 
 ## Quick start (synthetic demo)
 From the repo root:

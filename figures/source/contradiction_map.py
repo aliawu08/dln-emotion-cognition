@@ -1,4 +1,4 @@
-"""Generate Figure 1 (Contradiction Map) for Paper 2.
+"""Generate Figure 1 (Contradiction Map).
 
 This script produces a diagram that visualizes the core claim of the paper:
 contradictory emotion–cognition findings persist because studies aggregate across

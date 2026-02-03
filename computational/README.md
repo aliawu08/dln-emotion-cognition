@@ -17,10 +17,10 @@ Outputs:
 - `computational/outputs/simulation_summary.csv`
 - `computational/outputs/simulation_plot.png`
 
-## How this connects to Paper 2
-Paper 2's core emotion–cognition claim is that different architectures yield different roles for affect:
+## Connection to the Fusion Model
+The fusion model's core emotion–cognition claim is that different architectures yield different roles for affect:
 - dot: reactive signals dominate, weak contextual integration
-- linear: compartmentalization can preserve sequential reasoning but produces brittleness and “influence without awareness”
+- linear: compartmentalization can preserve sequential reasoning but produces brittleness and "influence without awareness"
 - network: integration supports flexible use of affect as information
 
-The simulation here is not a full reproduction of Paper 1; it is a reproducible computational scaffold for generating testable regime predictions that can be aligned to emotion–cognition paradigms.
+The simulation here is not a full reproduction of the DLN computational framework (Wu, 2026); it is a reproducible computational scaffold for generating testable regime predictions that can be aligned to emotion–cognition paradigms.

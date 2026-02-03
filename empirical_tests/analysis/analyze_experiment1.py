@@ -1,6 +1,6 @@
 """Analyze Experiment 1 (stage × affective load interaction).
 
-This script is provided as a runnable template for the empirical layer described in Paper 2.
+This script is provided as a runnable template for the empirical layer.
 
 Inputs:
 - empirical_tests/data/synthetic_experiment1_demo.csv  (synthetic demo data)
