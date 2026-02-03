@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: 'Cognitive Architecture as Hidden Moderator: Reconciling Contradictory Emotion-Cognition
+  Findings with the Dot-Linear-Network (DLN) Framework'
+message: If you use this repository, please cite the accompanying Paper 2 manuscript
+  and the DLN computational paper (Paper 1).
+type: software
+authors:
+- family-names: Wu
+  given-names: Alia
+  orcid: https://orcid.org/0009-0005-4424-102X
+  email: wut08@nyu.edu
+  affiliation: Risk Efficacy & Redline Rising
+license: CC-BY-4.0
+repository-code: https://github.com/aliawu08/paper2-dln-emotion-cognition
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Wu
+    given-names: Alia
+    orcid: https://orcid.org/0009-0005-4424-102X
+  title: 'Cognitive Architecture as Hidden Moderator: Reconciling Contradictory Emotion-Cognition
+    Findings with the Dot-Linear-Network (DLN) Framework'
+  year: 2026
+  notes: Paper 2 in the DLN series (manuscript in this repository).
+references:
+- type: article
+  authors:
+  - family-names: Wu
+    given-names: Alia
+  title: Compression Efficiency and Structural Learning as a Computational Model of
+    DLN Cognitive Stages
+  year: 2026
+  doi: 10.13140/RG.2.2.11937.26728

@@ -1,0 +1,477 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+
+\title{Cognitive Architecture as Hidden Moderator:\\
+Reconciling Contradictory Emotion--Cognition Findings\\
+with the Dot--Linear--Network (DLN) Framework\\[0.6em]
+\large Emotion--Cognition Fusion in the DLN Framework: A Developmental Extension from Reactive Separation to Integrated Processing}
+
+\author{
+Alia Wu\\
+Risk Efficacy \& Redline Rising\\
+\texttt{wut08@nyu.edu}\\
+\href{https://orcid.org/0009-0005-4424-102X}{ORCID: 0009-0005-4424-102X}
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Empirical findings on emotion-cognition relations often appear mutually contradictory: in some contexts emotion is treated as bias or noise, yet in others it is an essential source of information for adaptive decision making. This paper argues that the contradiction reflects a hidden moderator: the underlying cognitive architecture that governs how affective signals are represented, routed, and used. The relationship between emotion and cognition has been characterized alternately as oppositional, parallel, or integrated, with theoretical traditions differing sharply on whether emotion aids or impairs rational thought. This paper proposes that emotion-cognition relationships vary systematically across cognitive developmental stages as defined by the DLN (Dot-Linear-Network) framework. We propose that dot-stage cognition exhibits reactive emotional processing with minimal cognitive mediation; linear-stage cognition exhibits emotional suppression or compartmentalization that enables sequential reasoning but creates systematic blind spots; and network-stage cognition exhibits emotion-cognition integration where affective signals inform cognitive processing and cognitive context modulates emotional response. This stage-based account offers an integrative framework for investigating conditions under which emotion impairs versus enhances cognition. We ground the framework in somatic marker theory, appraisal theory, and affective neuroscience, then derive testable predictions about interoceptive accuracy, decision quality under emotional load, emotional granularity, and alexithymia correlates across DLN stages. The framework has implications for understanding decision-making effectiveness and emotional intelligence in complex environments. To strengthen the paper's scientific grounding, we additionally anchor the framework in a targeted umbrella synthesis of quantitative meta-analyses and systematic reviews spanning emotion regulation, implicit cognition, interoception, and affective decision-making tasks, highlighting heterogeneity patterns that existing moderators do not resolve. The result is a stage-based account in which emotion functions as noise under linear suppression but as signal under network integration, yielding clear empirical and meta-analytic predictions.
+\end{abstract}
+
+\noindent \textbf{Keywords:} emotion-cognition integration, somatic markers, cognitive development, affective neuroscience, decision-making, DLN framework
+
+\section{Introduction}
+
+Across decades of research, emotion has been cast both as the enemy of rationality and as the substrate that makes rationality possible. In dual-process and bias traditions, affect introduces systematic deviations from normative choice; in somatic marker and affective neuroscience traditions, affect supplies value signals that enable adaptive learning and decision making. These positions are typically treated as competing explanations. Here we treat the contradiction itself as a key empirical pattern that requires explanation.
+
+
+We propose that much of the apparent inconsistency reflects a latent structural moderator: the organization of cognition. Specifically, the Dot-Linear-Network (DLN) framework formalizes cognitive development as shifts in relational topology (from isolated elements, to sequential chains, to densely connected networks). On this view, emotion does not have a single causal role. Instead, DLN stage determines whether affective signals are ignored (dot separation), actively suppressed and compartmentalized (linear suppression), or integrated as information that constrains inference and guides action (network fusion).
+
+
+To make this argument maximally scientific rather than purely theoretical, we adopt a meta-analytic lens. Rather than offering only new predictions, we identify quantitative regularities and heterogeneity patterns already documented in existing meta-analyses and systematic reviews across several canonical literatures (emotion regulation strategies, implicit attitudes, interoception and alexithymia, and affective decision-making tasks). We show how DLN stage yields a unifying explanation for why standard moderators often fail to resolve heterogeneity: they are not proxies for architecture.
+
+
+This paper therefore contributes (a) a structural reconciliation account that explains why apparently incompatible findings can each be correct in different cognitive architectures, (b) a targeted umbrella synthesis that grounds the framework in quantitative summaries, and (c) an implementation roadmap for testing DLN stage as a moderator in both future meta-analyses and preregistered experiments.
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{../figures/export/contradiction_map.pdf}
+\caption{Contradiction map: DLN stage as a hidden moderator that reconciles emotion-as-bias and emotion-as-signal findings.}
+\label{fig:contradiction_map}
+\end{figure}
+
+
+Contemporary psychological science presents a theoretical paradox regarding the relationship between emotion and cognition. On one hand, extensive research documents systematic decision-making biases arising from emotional influence, including affect heuristics, loss aversion, and hot-cold empathy gaps (Slovic, Finucane, Peters, \& MacGregor, 2007; Kahneman \& Tversky, 1979; Loewenstein, 2005). This tradition suggests optimal decision-making requires minimizing emotional influence. On the other hand, research on somatic markers demonstrates that individuals with intact logical reasoning but impaired emotional processing make catastrophically poor real-world decisions (Bechara, Damasio, Damasio, \& Anderson, 1994; Damasio, 1994). This tradition suggests emotional signals constitute essential information for adaptive choice.
+
+
+The Dot-Linear-Network (DLN) framework (Wu, 2026) offers a topological approach to investigating this paradox by proposing that cognitive development progresses through three qualitatively distinct stages of relational organization. This paper extends the DLN framework to emotion-cognition relationships, proposing that each cognitive stage exhibits a characteristic pattern of emotion-cognition interaction:
+
+
+Dot stage: Cognition consists of isolated elements with minimal integration; corresponding emotion-cognition relationships involve reactive separation, with emotional responses occurring without cognitive mediation.
+
+
+Linear stage: Cognition is organized into sequential chains; corresponding emotion-cognition relationships involve suppressive compartmentalization, where emotion is separated from analytical processing to enable sequential reasoning.
+
+
+Network stage: Cognition is organized as interconnected webs; corresponding emotion-cognition relationships involve integrative fusion, where emotional signals inform cognitive processing while cognitive context modulates emotional response.
+
+
+This stage-based account does not propose that emotion is universally beneficial or detrimental to cognition, but rather that its effects depend on the cognitive architecture processing emotional information. The framework provides a developmental perspective for investigating findings from dual-process research (emotion as bias) and somatic marker research (emotion as signal) by specifying conditions under which each pattern emerges.
+
+
+The paper proceeds as follows. Section 2 reviews theoretical foundations on emotion-cognition relationships and summarizes the DLN framework. Section 3 presents the fusion model in detail, specifying emotion-cognition relationships at each DLN stage and addressing mechanisms of stage progression. Section 4 derives testable predictions with reference to established measures and paradigms. Section 5 discusses implications, limitations, and future directions.
+
+
+\section{Theoretical Foundations}
+
+\subsection{The Dual-Process Tradition: Emotion as Potential Bias}
+
+Research in judgment and decision-making has documented numerous ways in which emotional responses can systematically deviate from normative standards. The affect heuristic demonstrates that emotional reactions to stimuli influence risk and benefit judgments independently of statistical relationships (Slovic et al., 2007). Loss aversion shows that negative emotional responses to losses exceed positive responses to equivalent gains (Kahneman \& Tversky, 1979). Hot-cold empathy gaps reveal that individuals in affectively neutral states mispredict their behavior in emotional states, and vice versa (Loewenstein, 2005). These findings have supported the practical recommendation that optimal decision-making requires strategies to minimize emotional influence through structured procedures and cooling-off periods.
+
+
+\subsection{Somatic Marker Theory: Emotion as Informational Signal}
+
+Contrasting evidence comes from clinical neuroscience. Patients with ventromedial prefrontal cortex damage exhibit intact performance on laboratory reasoning tasks but make disastrous real-world decisions (Damasio, 1994). Damasio's somatic marker hypothesis proposes that bodily feelings associated with past outcomes normally guide decision-making by marking options with positive or negative valence. The Iowa Gambling Task operationalized this hypothesis: normal participants develop anticipatory skin conductance responses to disadvantageous decks before conscious awareness of deck contingencies, while patients fail to develop these responses and continue choosing disadvantageously (Bechara et al., 1994). These findings suggest emotional signals encode learned experience that analytical processing alone cannot access.
+
+
+\subsection{Appraisal Theory: Bidirectional Emotion-Cognition Relationships}
+
+Appraisal theories emphasize that emotional responses arise from cognitive evaluations of situations along dimensions such as goal relevance, goal congruence, and coping potential (Lazarus, 1991; Scherer, 2009). This tradition highlights the bidirectional nature of emotion-cognition relationships: cognitive evaluations shape emotional responses, while emotional states influence subsequent cognitive processing. The boundary between ``emotion'' and ``cognition'' becomes blurred, suggesting they may be aspects of an integrated system rather than separate faculties.
+
+
+\subsection{Affective Neuroscience: Neural Integration of Emotion and Cognition}
+
+Contemporary neuroscience has largely moved beyond strict emotion-cognition dichotomies. Pessoa (2008) argued that ``cognition and emotion are not easily separable in the brain,'' with most complex behaviors involving interacting contributions from both. Prefrontal regions associated with executive functions are deeply interconnected with limbic structures involved in emotional processing (Pessoa, 2008). Constructionist approaches propose that emotions emerge from interactions among core affect, conceptualization, and executive attention rather than from dedicated emotion circuits (Lindquist, Wager, Kober, Bliss-Moreau, \& Barrett, 2012). This neuroscientific perspective supports viewing emotion and cognition as distinguishable aspects of integrated processing.
+
+
+\subsection{The DLN Framework: A Topological Model of Cognitive Development}
+
+The DLN framework (Wu, 2026) models cognitive development as progressing through three topologically distinct stages defined by patterns of relational organization. In graph-theoretic terms, these stages correspond to null graphs, path graphs, and cyclic connected graphs respectively:
+
+
+Dot Stage: Cognitive elements are processed as isolated nodes without integration. Processing is concrete, reactive, and context-bound.
+
+
+Linear Stage: Cognitive elements are organized into sequential chains. Processing is procedural, rule-governed, and emphasizes direct causality.
+
+
+Network Stage: Cognitive elements are organized as interconnected webs with cycles and feedback loops. Processing is systemic, multi-perspectival, and adaptive to feedback and nonlinear relationships.
+
+
+The framework proposes that individuals may exhibit different dominant stages across domains contingent on expertise and experience, while maintaining a general developmental trajectory from dot to linear to network organization. Stage progression is facilitated by environments that present complex challenges, support autonomy, and encourage reflective practice, factors that concurrently bolster personal agency and metacognitive development. Stage assessment relies on analysis of how individuals represent problem structure---specifically, whether their representations exhibit isolated elements, sequential chains, or interconnected webs with feedback relationships; detailed operationalization is provided in Wu (2026).
+
+
+
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Emotion--Cognition Relationships Across DLN Stages}
+\label{tab:dln_stages}
+\begin{tabularx}{\linewidth}{l l l X}
+\toprule
+DLN Stage & Cognitive Architecture & Emotion-Cognition Relationship & Key Characteristics \\
+\midrule
+Dot Stage & Isolated nodes without integration & Reactive Separation & Stimulus-driven reactivity; absence of emotional context; post-hoc rationalization; emotional opacity \\
+Linear Stage & Sequential chains & Suppressive Compartmentalization & Emotion as interference; compartmentalization strategies; suppression costs; brittleness under emotional load \\
+Network Stage & Interconnected webs with cycles & Integrative Fusion & Emotion as information; cognitive contextualization; emotional granularity; flexible deployment; meta-emotional awareness \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
+\subsection{Evidence Synthesis: Meta-Analytic Anchors and Heterogeneity}
+
+To strengthen the paper's scientific grounding, we supplement the theoretical review with a targeted umbrella synthesis of quantitative meta-analyses and systematic reviews that bear directly on the fusion model's mechanisms (emotion regulation strategies, implicit-explicit dissociations, interoception and alexithymia, and affective decision making). The goal is not to estimate a single pooled effect of 'emotion on cognition' but to use existing quantitative summaries as empirical anchors for identifying robust regularities and, critically, patterns of unexplained heterogeneity.
+
+
+Our reporting follows core transparency principles emphasized by modern evidence-synthesis guidance (e.g., PRISMA 2020; Page et al., 2021), while remaining explicit about scope: the synthesis is theory-driven and selective rather than an exhaustive systematic review of the entire emotion-cognition literature. Accordingly, we prioritize meta-analyses that report standardized effect sizes and that either quantify heterogeneity or explicitly note variability not resolved by conventional moderators.
+
+
+Table 2 summarizes the quantitative anchors used in the present paper and highlights where meta-analytic heterogeneity is particularly salient. In Section 3.6, we connect these patterns to DLN-stage predictions and specify how DLN stage can be operationalized as a moderator in future formal meta-analyses.
+
+
+
+% Table 2 (longtable): allows page breaks for a tall evidence-synthesis table
+\small
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+\begin{longtable}{p{0.14\textwidth} p{0.16\textwidth} p{0.12\textwidth} p{0.17\textwidth} p{0.17\textwidth} p{0.20\textwidth}}
+\caption{Quantitative anchor points and heterogeneity signals from meta-analyses and systematic reviews (umbrella synthesis scaffold)}\label{tab:meta_anchors}\\
+\toprule
+Domain / construct & Meta-analytic source & k (studies / comparisons), N & Summary result & Heterogeneity signal & DLN-stage interpretation (sketch) \\
+\midrule
+\endfirsthead
+\toprule
+Domain / construct & Meta-analytic source & k (studies / comparisons), N & Summary result & Heterogeneity signal & DLN-stage interpretation (sketch) \\
+\midrule
+\endhead
+\midrule
+\multicolumn{6}{r}{\textit{Continued on next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Emotion regulation strategy effectiveness & Webb, Miles, \& Sheeran (2012) & 306 experimental comparisons & Cognitive change d+$\approx$0.36; response modulation d+$\approx$0.16; attentional deployment d+$\approx$0.00 & Effects vary sharply by strategy family; some suppression forms near-zero or negative & Linear suppression can reduce expression yet carry cognitive costs; network reappraisal integrates affect and supports flexibility \\
+Implicit cognition and behavior & Greenwald, Poehlman, Uhlmann, \& Banaji (2009) & 122 reports, 184 samples; N$\approx$14,900 & IAT predictive validity r$\approx$0.274 (explicit measures r$\approx$0.361, but more variable) & Predictive validity is real but modest; substantial variation by criterion and context & Linear-stage compartmentalization yields larger implicit-explicit gaps; network stage predicts tighter alignment \\
+Interoception and alexithymia & Trevisan, Altschuler, Bagdasarov, \& McPartland (2019) & 66 independent samples; N$\approx$7,146 & Overall r$\approx$-0.162 (alexithymia vs interoceptive awareness), with component-specific differences & Association depends on measurement component and sample characteristics & Dot/linear stages predict decoupling between bodily signals and emotion concepts; network stage predicts stronger coupling \\
+Heartbeat counting task validity & Desmedt et al. (2022) & 133 studies; N$\approx$11,524 & HCT performance shows near-zero links with trait anxiety (r$\approx$0.03), depression (r$\approx$-0.04), and alexithymia (r$\approx$-0.01) & Null/weak associations suggest measurement noise and construct-mismatch; encourages moderator-focused synthesis & Stage effects may emerge more clearly in tasks that index integration (network) rather than raw detection under dot/linear separation \\
+Alexithymia vs emotional awareness measures & Maroti, Lilliengren, \& Bileviciute-Ljungar (2018) & 21 studies, 28 samples; N$\approx$2,857 & TAS-20 vs LEAS aggregated r$\approx$-0.122 & Moderate heterogeneity; weak overlap implies measures capture distinct components & DLN predicts non-linear mapping: self-report beliefs vs performance-based integration diverge under linear compartmentalization \\
+Affective decision making task performance & Zanini, Picano, \& Spitoni (2025) & 110 studies (IGT) & Sex difference in classic 100-trial IGT UMD$\approx$3.381 (males higher), with significant heterogeneity & Large between-study variability not resolved by standard moderators & DLN suggests IGT outcomes depend on whether affective value signals are integrated (network) or treated as noise (linear) \\
+Emotional approach coping and health & Hoyt et al. (2024) & 86 studies & Overall health association r$\approx$0.05 (95\% CI $\approx$[0.003, 0.10]); domain-specific sign changes & Marked heterogeneity across outcomes and measures; effects can flip by health domain & Network integration can make emotional processing adaptive in some domains, yet linear rumination can worsen distress \\
+\end{longtable}
+\normalsize
+
+
+
+
+\section{The Fusion Model: Emotion-Cognition Relationships Across DLN Stages}
+
+The fusion model proposes that each DLN stage exhibits a characteristic pattern of emotion-cognition interaction. These patterns represent dominant cognitive architectures through which emotional information is processed within specific domains, rather than fixed personality traits.
+
+
+
+
+
+
+
+
+\subsection{Dot Stage: Reactive Separation}
+
+At the dot stage, where cognition consists of isolated nodes processed without integration, emotion-cognition relationships are characterized by reactive separation: emotional responses occur in reaction to immediate stimuli with minimal cognitive mediation or contextual framing.
+
+
+Characteristics: Stimulus-driven reactivity: Emotional responses are triggered by immediate perceptual features rather than appraised meaning, operating independently of broader situational evaluation. Absence of emotional context: Emotional responses are not informed by contextual elements that would require relational integration. Post-hoc rationalization: Cognitive engagement following emotional responses often serves to justify rather than evaluate the response. Emotional opacity: Emotions are experienced but not understood, with minimal differentiation among emotional states.
+
+
+Behavioral Signatures: In decision-making, impulsive choices driven by immediate affect without consideration of future consequences. In interpersonal contexts, reactive conflict without consideration of others' perspectives or relationship consequences. In stress contexts, overwhelming emotional experiences without cognitive distancing or coping strategies.
+
+
+\subsection{Linear Stage: Suppressive Compartmentalization}
+
+At the linear stage, where cognition is organized into sequential chains, emotion-cognition relationships are characterized by suppressive compartmentalization: emotion is treated as separate from and potentially disruptive to analytical processing, leading to strategies of suppression, avoidance, or isolation.
+
+
+Characteristics: Emotion as interference: Emotional responses are viewed as interrupting sequential reasoning processes. Compartmentalization strategies: Methods are developed to keep emotion separate from cognition (e.g., structured decision procedures, cooling-off periods). Emotional suppression costs: Suppression reduces awareness of emotional influence while physiological arousal may persist or increase (Gross, 2002). Brittleness under emotional load: Heavy emotional load can overwhelm suppression mechanisms, leading to cognitive impairment or behavioral dysregulation.
+
+
+Behavioral Signatures: In decision-making, logically coherent analyses that may exclude relevant emotional data, potentially producing technically optimal but practically ineffective decisions. In interpersonal contexts, ``tone-deaf'' rationalism that treats emotional dimensions as irrational noise rather than meaningful signals. In self-understanding, alexithymic tendencies, difficulty identifying and describing one's own emotional states.
+
+
+\subsection{Network Stage: Integrative Fusion}
+
+At the network stage, where cognition is organized as interconnected webs with cycles and feedback loops, emotion-cognition relationships are characterized by integrative fusion: emotional signals inform cognitive processing while cognitive context modulates emotional response through bidirectional interaction. The term ``fusion'' here denotes functional integration---emotional and cognitive processes mutually inform each other in real-time---without presupposing a specific neural architecture. Whether this integration reflects a unitary system or tightly coupled but distinguishable subsystems remains an empirical question the framework helps organize but does not resolve.
+
+
+Characteristics: Emotion as information: Emotional responses are treated as data about situations rather than noise to be filtered. Cognitive contextualization of emotion: Cognitive framing actively shapes emotional responses through reappraisal processes. Emotional granularity: Capacity for fine-grained differentiation among emotional states enables appropriate, differentiated responses. Flexible deployment: Ability to match processing strategy to problem type, consulting emotional signals for ill-structured problems while relying on analytical processing for well-structured problems. Meta-emotional awareness: Capacity to observe and regulate one's own emotion-cognition dynamics.
+
+
+Behavioral Signatures: In decision-making, choices that integrate analytical and emotional information, with gut feelings consulted and interrogated. In interpersonal contexts, emotional attunement alongside analytical understanding of social dynamics. In self-understanding, coherent identity across emotional states, with emotions recognized as meaningful aspects of self rather than alien intrusions.
+
+
+\subsection{The Suppression Paradox}
+
+A central insight of the fusion model is the suppression paradox: linear-stage compartmentalization does not achieve its intended goal of removing emotional bias from cognition. While the intention is to eliminate emotional influence, the effect is often to remove awareness of this influence while leaving it intact, or even amplifying it. Research on implicit bias demonstrates this pattern: individuals who explicitly endorse objective judgment may nevertheless show systematic biases that correlate with implicit measures (Greenwald, Poehlman, Uhlmann, \& Banaji, 2009). Linear-stage processing may be particularly susceptible to such effects because it actively suppresses the emotional signals that might otherwise flag discrepancies between explicit values and implicit responses.
+
+
+\subsection{Reconciling Contradictory Findings}
+
+The fusion model offers an integrative framework for investigating apparent contradictions in the literature by specifying conditions under which different emotion-cognition patterns emerge:
+
+
+Dual-process findings (emotion biases judgment) emerge when: Emotional responses are engaged in contexts where they provide evolutionarily outdated or contextually inappropriate signals, or when cognitive processing lacks the topological capacity to integrate emotional information effectively.
+
+
+Somatic marker findings (emotion enables judgment) emerge when: Emotional signals encode relevant learned experience, but the cognitive architecture either excludes this information (through neural damage or active suppression) or lacks capacity to integrate it meaningfully.
+
+
+Optimal emotion-cognition integration emerges when: Cognitive architecture supports bidirectional interaction between emotional signals and analytical processing, enabling emotional information to inform cognition while cognitive evaluation contextualizes emotional responses.
+
+
+This integrative account provides a framework for investigating conditions under which different emotion-cognition relationships emerge and their consequences for decision-making effectiveness.
+
+
+\subsection{Evidence from Meta-Analytic Heterogeneity}
+
+The purpose of introducing a meta-analytic lens is not to claim that the present paper is itself a full systematic meta-analysis of all emotion-cognition findings. Rather, it is to use the strongest existing quantitative summaries as stress tests for the fusion model. If contradictions are primarily artifacts of measurement or idiosyncratic design choices, then aggregation should largely wash them out. Conversely, if contradictions reflect a structural moderator, then aggregation should reveal persistent heterogeneity that conventional moderators fail to explain.
+
+
+Table 2 illustrates that the relevant literatures exhibit precisely this signature. Meta-analyses of emotion regulation strategies show that 'regulation' is not a unitary intervention: effect sizes vary substantially by strategy family, with cognitive change strategies typically outperforming response modulation approaches and with some suppression forms producing near-zero or negative effects (Webb et al., 2012). Similarly, meta-analytic work on implicit cognition demonstrates reliable but modest predictive validity alongside substantial contextual variability, consistent with the idea that implicit and explicit systems can be differentially coupled depending on whether emotion and value signals are compartmentalized or integrated (Greenwald et al., 2009).
+
+
+Two measurement-intensive domains further underscore why a structural moderator matters. In interoception, the association between alexithymia and interoceptive awareness is small on average and is strongly contingent on what is being measured (accuracy versus sensibility) and on sample characteristics (Trevisan et al., 2019). In parallel, a large meta-analysis of heartbeat counting task performance reports near-zero associations with several trait measures (including alexithymia), highlighting the risk of treating a single task as a general index of 'bodily awareness' and motivating moderator-based synthesis rather than single-measure inference (Desmedt et al., 2022).
+
+
+Finally, meta-analytic evidence on affective decision making shows that even widely used paradigms such as the Iowa Gambling Task exhibit large between-study variability that is not easily resolved by standard methodological moderators (Zanini et al., 2025). In coping and health outcomes, emotional approach coping shows small average associations with overall health and domain-specific sign changes, again reflecting heterogeneity that invites a structural interpretation (Hoyt et al., 2024).
+
+
+The fusion model offers a principled candidate for the hidden source of this variability: DLN stage predicts whether affective signals are treated as noise to be suppressed (linear compartmentalization), as raw reaction to be separated from cognition (dot separation), or as information that can be represented at high granularity and used to constrain inference (network fusion). This framing converts apparent contradictions into testable heterogeneity claims: DLN stage should explain variance that remains after conventional moderators and should produce predictable cross-domain patterns (e.g., suppression paradoxes and implicit-explicit gaps concentrated in linear-stage architectures).
+
+
+\subsection{Mechanisms of Stage Progression}
+
+Stage progression in emotion-cognition relationships parallels broader cognitive development within the DLN framework. Several factors may facilitate movement from reactive separation through suppressive compartmentalization to integrative fusion:
+
+
+Metacognitive Development: Increasing awareness of one's own cognitive and emotional processes enables recognition of how emotional states influence thinking and vice versa.
+
+
+Exposure to Complex Social-Emotional Problems: Environments that present emotionally-laden problems requiring integrative solutions may stimulate development of more sophisticated emotion-cognition relationships.
+
+
+Feedback on Decision Outcomes: Systematic feedback about how emotional responses influenced decision quality may promote more nuanced engagement with emotional information.
+
+
+Cognitive Flexibility Training: Interventions that explicitly target capacity to shift between different cognitive-emotional processing modes may facilitate integration.
+
+
+The fusion model does not propose that individuals operate exclusively within a single stage across all domains or contexts. Rather, individuals exhibit dominant patterns within domains where they have particular expertise or experience, while potentially showing less developed patterns in unfamiliar domains.
+
+
+\section{Testable Predictions}
+
+The fusion model generates specific empirical predictions that can be tested using established measures and paradigms:
+
+
+\subsection{Interoceptive Accuracy}
+
+Prediction 1: Interoceptive accuracy, the ability to perceive internal bodily signals, will correlate positively with DLN stage. Network-stage individuals should demonstrate greater accuracy on measures such as the Heartbeat Perception Task (Schandry, 1981) compared to linear- and dot-stage individuals.
+
+
+Prediction 2: The relationship between interoceptive accuracy and decision quality will be moderated by DLN stage. For network-stage individuals, higher accuracy should predict better decisions in complex, uncertain tasks; for linear-stage individuals, this relationship should be attenuated or absent.
+
+
+\subsection{Emotional Granularity}
+
+Prediction 3: Emotional granularity, the tendency to make fine-grained distinctions among emotional states, will increase across DLN stages. Dot-stage individuals should demonstrate low granularity on measures such as the Levels of Emotional Awareness Scale (LEAS; Lane, Quinlan, Schwartz, Walker, \& Zeitlin, 1990); linear-stage individuals should show moderate granularity with basic emotion categories; network-stage individuals should demonstrate high granularity with differentiated emotional descriptions.
+
+
+Prediction 4: Emotional granularity will partially mediate the relationship between DLN stage and adaptive coping. Network-stage individuals' superior coping in emotionally challenging situations should be partially explained by their capacity for specific emotional differentiation.
+
+
+\subsection{Alexithymia}
+
+Prediction 5: Alexithymia scores on the Toronto Alexithymia Scale (TAS-20; Bagby, Parker, \& Taylor, 1994) will show a curvilinear relationship with DLN stage: highest for linear-stage individuals (active emotional suppression), moderate for dot-stage individuals (emotional opacity without active suppression), and lowest for network-stage individuals (emotional integration).
+
+
+Prediction 6: Among linear-stage individuals, higher cognitive ability will not correlate with lower alexithymia, supporting the proposal that emotional deficits at this stage reflect compartmentalization strategies rather than cognitive limitations.
+
+
+\subsection{Decision Quality Under Emotional Load}
+
+Prediction 7: Decision quality under varying emotional load will differ by DLN stage in a specific pattern. Dot-stage individuals should show impairment across load levels; linear-stage individuals should maintain performance under low load but show sharp decline under high load; network-stage individuals should show gradual, proportional decline across load levels.
+
+
+Prediction 8: Recovery time after emotional disruption will differ by stage: slowest for linear-stage individuals (re-establishing suppression), fastest for network-stage individuals (integrating the experience), with dot-stage individuals showing intermediate recovery (reactive dissipation).
+
+
+\subsection{Implicit-Explicit Attitude Discrepancies}
+
+Prediction 9: The discrepancy between explicit attitudes (self-report measures) and implicit biases (Implicit Association Test; Greenwald, McGhee, \& Schwartz, 1998) will be largest for linear-stage individuals, reflecting active suppression of emotional influences on explicit responses. Dot-stage individuals are predicted to show moderate discrepancies reflecting inconsistency rather than systematic suppression---their explicit and implicit responses may diverge due to lack of integration, but without the systematic pattern produced by active exclusion of emotional information from explicit processing. Network-stage individuals should show the smallest discrepancies, reflecting alignment between implicit responses and explicitly accessible emotional awareness.
+
+
+Prediction 10: Interventions targeting implicit bias reduction will show differential effectiveness by DLN stage: most effective for network-stage individuals (who can use awareness to modify behavior), least effective for linear-stage individuals (who resist acknowledging emotional influences).
+
+
+\subsection{Meta-Analytic Tests: DLN Stage as a Moderator of Heterogeneity}
+
+A central claim of the fusion model is that DLN stage explains variance that persists in aggregated literatures. This claim is directly testable using formal meta-analytic methods by treating DLN stage as a coded moderator. The practical workflow is straightforward: (a) define an a priori coding rubric that maps tasks, manipulations, and populations onto dot-, linear-, or network-dominant architectures; (b) apply the rubric at the level of each effect size (rather than at the study level when multiple effects are reported); and (c) estimate random-effects models with stage as a moderator, using multi-level structures when effects are nested within studies.
+
+
+Operationally, DLN stage coding can be grounded in features already present in most method sections: whether the task representation is element-wise (dot), sequential with bottlenecks and inhibition demands (linear), or relationally integrated with feedback and context updating (network). For individual-differences literatures, stage coding can also be supported by convergent measures (e.g., granularity, integration-based emotional awareness performance measures, or network-like reasoning tasks) and by domain expertise where relevant.
+
+
+Key quantitative tests include: (1) reduction in between-study heterogeneity (e.g., tau-squared) when stage is included; (2) predictable sign changes across stages (emotion as noise under linear suppression versus emotion as signal under network integration); and (3) cross-domain coherence, where the same individual or population shows aligned stage signatures across regulation, interoception, implicit-explicit coupling, and decision quality. These tests can be preregistered and, when feasible, implemented as living meta-analyses that update as new studies appear.
+
+
+\section{Discussion}
+
+\subsection{Theoretical Integration and Contribution}
+
+The fusion model extends the DLN framework to emotion-cognition relationships, offering an integrative account of contradictory findings in the literature. Rather than proposing that emotion universally enhances or impairs cognition, the model specifies how different cognitive architectures process emotional information. This stage-based approach accommodates findings from dual-process research, somatic marker theory, appraisal theory, and affective neuroscience within a unified developmental framework.
+
+
+\subsection{Implications for Decision-Making Research}
+
+The model suggests that debates about ``rational'' versus ``emotional'' decision-making may rest on false dichotomies. The critical question is not whether emotion influences cognition, but how different cognitive architectures integrate emotional information. Laboratory tasks that strip emotional context may not adequately capture real-world decision-making where emotional signals often carry valid information. Research should attend to whether emotional responses are appropriate to situational demands rather than merely whether they are present.
+
+
+\subsection{Implications for Emotional Intelligence and Leadership}
+
+The fusion model offers a developmental perspective on emotional intelligence. Rather than viewing emotional intelligence as a stable trait, the model conceptualizes it as reflecting particular patterns of emotion-cognition integration that develop alongside broader cognitive maturation. This perspective helps explain why emotional intelligence predicts leadership effectiveness in complex, uncertain environments where emotional signals provide crucial information about stakeholder dynamics and implementation feasibility.
+
+
+\subsection{Limitations and Boundary Conditions}
+
+Several limitations warrant acknowledgment. First, the mapping between DLN stages and emotion-cognition relationships, while theoretically grounded, requires empirical validation. Specifically, whether individuals classified as ``network stage'' on cognitive measures from the core DLN framework will correspondingly exhibit ``integrative fusion'' on emotion-cognition measures remains an open empirical question requiring discriminant validity testing. Second, the model focuses on dominant patterns within domains rather than claiming individuals operate at a single stage across all contexts. Third, while mechanisms of stage progression are proposed, specific pathways require further specification and testing. Fourth, assessment of DLN stage in relation to emotion-cognition patterns presents methodological challenges that must be addressed in future research.
+
+
+\subsection{Future Research Directions}
+
+Instrument Development: Creation and validation of measures assessing emotion-cognition integration patterns aligned with DLN stages.
+
+
+Longitudinal Studies: Examination of how emotion-cognition relationships develop in parallel with broader cognitive stage progression.
+
+
+Neuroscientific Investigation: Exploration of neural correlates of different emotion-cognition patterns, particularly functional connectivity between prefrontal and limbic regions during decision-making.
+
+
+Intervention Research: Testing of interventions designed to facilitate progression from suppressive compartmentalization to integrative fusion.
+
+
+Cross-Domain Examination: Investigation of how emotion-cognition patterns vary across domains within individuals based on expertise and experience.
+
+
+Implementation Roadmap (Open Science): A pragmatic path from theory to cumulative evidence is to (1) preregister an evidence-synthesis protocol and a DLN-stage coding rubric, (2) build an openly versioned extraction table linking each study to effect sizes, task features, and stage codes, (3) estimate random-effects and multi-level meta-analytic models testing stage as a moderator of heterogeneity, (4) design preregistered experiments that manipulate affective load while measuring stage-relevant architecture features, and (5) integrate results through living updates. A lightweight public repository can support this program by storing the coding manual, extraction sheets, analysis scripts, and figure sources, enabling direct reuse and critique.
+
+
+
+
+\subsection{Computational Illustration and Reproducibility}
+
+To connect the present framework to an explicit mechanism, the accompanying repository includes a runnable DLN-style simulation (dot vs. linear vs. network controllers) aligned with the DLN computational paper (Wu, 2026). In a toy decision environment with latent factors (F $\in \{2,4,8\}$) and increasing representational dimensionality (K $\in \{4,8,16,32\}$), network-stage agents show an increasing net advantage over linear-stage agents as task structure becomes more complex. Aggregated across 30 runs per K condition (F-by-seed settings), mean net reward at $K=32$ was 0.618 for network-stage agents versus 0.170 for linear-stage agents ($\Delta$=0.448). These simulations are \textbf{illustrative} rather than empirical validation, but they demonstrate that a stage-based architecture can generate regime shifts consistent with the proposed ``emotion as signal'' versus ``emotion as noise'' moderation.
+
+To prevent confusion, all empirical-layer CSVs shipped with this repository are explicitly labeled as synthetic demo data (e.g., \texttt{synthetic\_experiment1\_demo.csv}) and are provided solely to document the analysis pipeline and expected schema.
+
+
+\section{Conclusion}
+
+The relationship between emotion and cognition has represented a persistent theoretical challenge in psychological science. The fusion model, grounded in the DLN framework, proposes that this relationship varies systematically with cognitive developmental stage. Dot-stage cognition exhibits reactive separation, linear-stage cognition exhibits suppressive compartmentalization, and network-stage cognition exhibits integrative fusion between emotional and cognitive processing.
+
+
+This stage-based account offers an integrative framework for investigating contradictory findings in the literature by specifying conditions under which emotion impairs versus enhances cognitive functioning. Rather than advocating for emotionless analysis or uncritical emotional reliance, the model points toward the development of cognitive architectures capable of integrating emotional signals as information while maintaining reflective oversight. Such integration represents a crucial capacity for effective functioning in the complex, uncertain environments that characterize consequential human decision-making.
+
+
+
+
+
+
+\begin{thebibliography}{99}
+
+\bibitem{Bagby1994}
+Bagby, R. M., Parker, J. D., \& Taylor, G. J. (1994). The twenty-item Toronto Alexithymia Scale---I. Item selection and cross-validation of the factor structure. Journal of Psychosomatic Research, 38(1), 23--32.
+
+\bibitem{Bechara1994}
+Bechara, A., Damasio, A. R., Damasio, H., \& Anderson, S. W. (1994). Insensitivity to future consequences following damage to human prefrontal cortex. Cognition, 50(1-3), 7--15.
+
+\bibitem{Damasio1994}
+Damasio, A. R. (1994). Descartes' error: Emotion, reason, and the human brain. Putnam.
+
+\bibitem{Desmedt2022}
+Desmedt, O., Van Den Houte, M., Walentynowicz, M., Dekeyser, S., Luminet, O., \& Corneille, O. (2022). How does heartbeat counting task performance relate to self-report measures of mental health? A meta-analysis. Collabra: Psychology, 8(1). https://doi.org/10.1525/collabra.33271
+
+\bibitem{Greenwald1998}
+Greenwald, A. G., McGhee, D. E., \& Schwartz, J. L. (1998). Measuring individual differences in implicit cognition: The implicit association test. Journal of Personality and Social Psychology, 74(6), 1464--1480.
+
+\bibitem{Greenwald2009}
+Greenwald, A. G., Poehlman, T. A., Uhlmann, E. L., \& Banaji, M. R. (2009). Understanding and using the Implicit Association Test: III. Meta-analysis of predictive validity. Journal of Personality and Social Psychology, 97(1), 17--41.
+
+\bibitem{Gross2002}
+Gross, J. J. (2002). Emotion regulation: Affective, cognitive, and social consequences. Psychophysiology, 39(3), 281--291.
+
+\bibitem{Hoyt2024}
+Hoyt, M. A., Llave, K., Wang, A. W. T., Darabos, K., Diaz, K. G., Hoch, M., MacDonald, J. J., \& Stanton, A. L. (2024). The Utility of Coping Through Emotional Approach: A Meta-Analysis. Health Psychology, 43(6), 397--417. https://doi.org/10.1037/hea0001364
+
+\bibitem{Kahneman1979}
+Kahneman, D., \& Tversky, A. (1979). Prospect theory: An analysis of decision under risk. Econometrica, 47(2), 263--291.
+
+\bibitem{Lane1990}
+Lane, R. D., Quinlan, D. M., Schwartz, G. E., Walker, P. A., \& Zeitlin, S. B. (1990). The Levels of Emotional Awareness Scale: A cognitive-developmental measure of emotion. Journal of Personality Assessment, 55(1-2), 124--134.
+
+\bibitem{Lazarus1991}
+Lazarus, R. S. (1991). Emotion and adaptation. Oxford University Press.
+
+\bibitem{Lindquist2012}
+Lindquist, K. A., Wager, T. D., Kober, H., Bliss-Moreau, E., \& Barrett, L. F. (2012). The brain basis of emotion: A meta-analytic review. Behavioral and Brain Sciences, 35(3), 121--143.
+
+\bibitem{Loewenstein2005}
+Loewenstein, G. (2005). Hot-cold empathy gaps and medical decision making. Health Psychology, 24(4S), S49--S56.
+
+\bibitem{Maroti2018}
+Maroti, D., Lilliengren, P., \& Bileviciute-Ljungar, I. (2018). The relationship between alexithymia and emotional awareness: A meta-analytic review of the correlation between TAS-20 and LEAS. Frontiers in Psychology, 9, 453. https://doi.org/10.3389/fpsyg.2018.00453
+
+\bibitem{Page2021}
+Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372, n71. https://doi.org/10.1136/bmj.n71
+
+\bibitem{Pessoa2008}
+Pessoa, L. (2008). On the relationship between emotion and cognition. Nature Reviews Neuroscience, 9(2), 148--158.
+
+\bibitem{Schandry1981}
+Schandry, R. (1981). Heart beat perception and emotional experience. Psychophysiology, 18(4), 483--488.
+
+\bibitem{Scherer2009}
+Scherer, K. R. (2009). The dynamic architecture of emotion: Evidence for the component process model. Cognition and Emotion, 23(7), 1307--1351.
+
+\bibitem{Slovic2007}
+Slovic, P., Finucane, M. L., Peters, E., \& MacGregor, D. G. (2007). The affect heuristic. European Journal of Operational Research, 177(3), 1333--1352.
+
+\bibitem{Trevisan2019}
+Trevisan, D. A., Altschuler, M. R., Bagdasarov, A., \& McPartland, J. C. (2019). A meta-analysis on the relationship between interoceptive awareness and alexithymia: Distinguishing interoceptive accuracy and sensibility. Journal of Abnormal Psychology, 128(8), 765--776. https://doi.org/10.1037/abn0000454
+
+\bibitem{Webb2012}
+Webb, T. L., Miles, E., \& Sheeran, P. (2012). Dealing with feeling: A meta-analysis of the effectiveness of strategies derived from the process model of emotion regulation. Psychological Bulletin, 138(4), 775--808. https://doi.org/10.1037/a0027600
+
+\bibitem{Wu2026}
+Wu, A. (2026). Compression Efficiency and Structural Learning as a Computational Model of DLN Cognitive Stages. https://doi.org/10.13140/RG.2.2.11937.26728
+
+\bibitem{Zanini2025}
+Zanini, L., Picano, C., \& Spitoni, G. F. (2025). The Iowa Gambling Task: Men and women perform differently. A meta-analysis. Journal of Adult Development, 35, 211--231. https://doi.org/10.1007/s11065-024-09637-3
+
+\end{thebibliography}
+
+\end{document}
