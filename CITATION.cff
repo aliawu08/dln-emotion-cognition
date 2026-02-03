@@ -10,7 +10,9 @@ authors:
   orcid: https://orcid.org/0009-0005-4424-102X
   email: wut08@nyu.edu
   affiliation: Risk Efficacy & Redline Rising
-license: CC-BY-4.0
+license:
+  - MIT
+  - CC-BY-4.0
 repository-code: https://github.com/aliawu08/dln-emotion-cognition
 preferred-citation:
   type: article
