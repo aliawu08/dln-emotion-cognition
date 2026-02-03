@@ -110,4 +110,5 @@ This paper builds on the DLN computational framework:
 
 ## License
 
-CC-BY-4.0. See [LICENSE](LICENSE) for details.
+- **Code** (Python scripts, analysis pipelines): [MIT License](LICENSE-CODE)
+- **Manuscript, documentation, and data**: [CC-BY-4.0](LICENSE)
