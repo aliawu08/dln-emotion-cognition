@@ -1,8 +1,8 @@
 """Run DLN simulations (dot vs linear vs network) and write outputs.
 
-This script is a practical computational deliverable for Paper 2:
-it produces synthetic regime evidence showing when network (integrative) processing
-outperforms linear (compartmentalized) processing under shared structure.
+This script produces synthetic regime evidence showing when network (integrative)
+processing outperforms linear (compartmentalized) processing under shared structure,
+supporting the fusion model's predictions.
 
 Outputs:
 - computational/outputs/simulation_summary.csv

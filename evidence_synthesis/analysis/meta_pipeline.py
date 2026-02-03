@@ -1,4 +1,4 @@
-"""Meta-analysis utilities for Paper 2 (DLN Emotion–Cognition).
+"""Meta-analysis utilities for the DLN Emotion–Cognition evidence synthesis.
 
 This module implements:
 - Random-effects meta-analysis (intercept-only) via REML.

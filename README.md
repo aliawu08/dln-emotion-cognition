@@ -1,52 +1,113 @@
-# DLN Emotion–Cognition: Evidence Synthesis and Implementation
+# Cognitive Architecture as Hidden Moderator: Reconciling Contradictory Emotion–Cognition Findings with the DLN Framework
 
-This repository contains **submission-ready manuscript files** and a complete set of **open-science deliverables** that implement the three-layer research program described in the manuscript:
+This repository accompanies the paper *"Cognitive Architecture as Hidden Moderator: Reconciling Contradictory Emotion–Cognition Findings with the Dot–Linear–Network (DLN) Framework"* (Wu, 2026).
 
-1. **Evidence synthesis layer**: umbrella + moderator meta-analysis templates, extraction sheets, and runnable analysis code.
-2. **Empirical layer**: preregistration-ready experiment protocol + analysis template (with synthetic demo data).
-3. **Computational layer**: runnable DLN-style simulations (dot vs linear vs network) that generate regime predictions.
+The paper proposes that DLN cognitive stage acts as a **hidden moderator** explaining why emotion–cognition findings appear contradictory: emotion functions as noise under linear suppression but as signal under network integration.
 
-## Canonical source of truth
-- **arXiv/LaTeX submission:** `manuscript/paper2.tex` (builds to `manuscript/paper2.pdf`)
-- **Word/APA submission:** `manuscript/Paper2_Emotion_Cognition_SubmissionReady.docx` (with PDF export)
+**Contact:** Alia Wu — wut08@nyu.edu
+**ORCID:** [0009-0005-4424-102X](https://orcid.org/0009-0005-4424-102X)
 
-## Manuscript
-- `manuscript/Paper2_Emotion_Cognition_SubmissionReady.docx`
-- `manuscript/Paper2_Emotion_Cognition_SubmissionReady.pdf`
-- `manuscript/paper2.tex` (LaTeX version matching the DLN-series style)
+---
 
-## Quick start (run the deliverables)
-### 1) Evidence synthesis demo
+## Key Claims
+
+| DLN Stage | Emotion–Cognition Pattern | Prediction |
+|-----------|---------------------------|------------|
+| **Dot** | Reactive separation | Stimulus-driven reactivity; emotional opacity; poor decision quality across load levels |
+| **Linear** | Suppressive compartmentalization | Emotion treated as interference; suppression costs; brittleness under high affective load |
+| **Network** | Integrative fusion | Emotion as information; cognitive contextualization; flexible deployment; smallest implicit–explicit gaps |
+
+---
+
+## Repository Structure
+
+```
+├── manuscript/
+│   ├── paper2.tex                   # LaTeX source
+│   ├── paper2.pdf                   # Compiled PDF
+│   └── Paper2_Emotion_Cognition_SubmissionReady.docx  # Word version
+├── evidence_synthesis/
+│   ├── protocol/                    # Meta-analysis protocol and coding manual
+│   ├── extraction/                  # Data extraction templates
+│   ├── analysis/                    # Meta-analysis pipeline
+│   └── outputs/                     # Generated tables and figures
+├── empirical_tests/
+│   ├── design/                      # Experiment protocol
+│   ├── preregistration/             # OSF-style prereg template
+│   ├── data/                        # Synthetic demo data
+│   ├── analysis/                    # Analysis scripts
+│   └── outputs/                     # Generated results
+├── computational/
+│   ├── src/                         # Agent implementations
+│   ├── run_simulation.py            # Main simulation script
+│   └── outputs/                     # Simulation results
+├── figures/
+│   ├── source/                      # Figure generation code
+│   └── export/                      # PNG and PDF exports
+├── requirements.txt
+├── CITATION.cff
+└── LICENSE
+```
+
+---
+
+## Quickstart
+
+**Requirements:** Python ≥ 3.8
+
 ```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run evidence synthesis demo
 python evidence_synthesis/analysis/run_meta_example.py
-```
 
-### 2) Empirical test demo
-```bash
+# Run empirical analysis demo
 python empirical_tests/analysis/analyze_experiment1.py
-```
 
-### 3) Computational demo
-```bash
+# Run computational simulation
 python computational/run_simulation.py
-```
 
-### 4) Regenerate Figure 1 (contradiction map)
-```bash
+# Regenerate Figure 1 (contradiction map)
 python figures/source/contradiction_map.py
 ```
 
-## Replace synthetic demo data with real extraction / study data
-- Evidence synthesis:
-  - Fill: `evidence_synthesis/extraction/study_level_extraction_template.csv`
-  - Ensure you produce a long-form table with `yi`, `vi`, `dln_stage_code`, `paradigm_family`.
-- Empirical:
-  - Replace `empirical_tests/data/synthetic_experiment1_demo.csv` with real data in the same schema.
-- Computational:
-  - Adjust `K`, `F`, noise parameters, and learning hyperparameters in `computational/run_simulation.py`.
+---
 
-## Citation for the DLN computational framework
-Wu, A. (2026). *Compression Efficiency and Structural Learning as a Computational Model of DLN Cognitive Stages*. DOI: 10.13140/RG.2.2.11937.26728
+## Three-Layer Research Program
+
+1. **Evidence synthesis layer**: Umbrella + moderator meta-analysis templates, extraction sheets, and runnable analysis code demonstrating how DLN stage can be coded as a moderator of heterogeneity.
+
+2. **Empirical layer**: Preregistration-ready experiment protocol testing the Stage × Affective Load interaction prediction (with synthetic demo data).
+
+3. **Computational layer**: Runnable DLN-style simulations (dot vs. linear vs. network agents) that generate regime predictions consistent with the fusion model.
+
+---
+
+## Citation
+
+```bibtex
+@misc{wu_dln_emotion_cognition_2026,
+  title  = {Cognitive Architecture as Hidden Moderator:
+            Reconciling Contradictory Emotion–Cognition Findings
+            with the Dot–Linear–Network (DLN) Framework},
+  author = {Wu, Alia},
+  year   = {2026}
+}
+```
+
+---
+
+## Related Work
+
+This paper builds on the DLN computational framework:
+
+> Wu, A. (2026). *Compression Efficiency and Structural Learning as a Computational Model of DLN Cognitive Stages*.
+> DOI: [10.13140/RG.2.2.11937.26728](https://doi.org/10.13140/RG.2.2.11937.26728)
+> Repository: [github.com/aliawu08/dln-compression-model](https://github.com/aliawu08/dln-compression-model)
+
+---
 
 ## License
-This repo is released under CC BY 4.0 unless otherwise noted (see `LICENSE`).
+
+CC-BY-4.0. See [LICENSE](LICENSE) for details.

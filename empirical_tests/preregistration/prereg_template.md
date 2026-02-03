@@ -1,4 +1,4 @@
-# Preregistration Template (DLN Paper 2: Emotion–Cognition)
+# Preregistration Template (DLN Emotion–Cognition)
 
 ## Title
 [Insert study title]
