@@ -5,7 +5,7 @@ This folder contains submission-ready manuscript files for the DLN Emotion–Cog
 ## Files
 - `Paper2_Emotion_Cognition_SubmissionReady.docx` (submission-ready)
 - `Paper2_Emotion_Cognition_SubmissionReady.pdf` (submission-ready export)
-- `paper2.tex` (LaTeX version, styled to match the DLN-series LaTeX formatting used in `main.tex` of Paper 1)
+- `paper2.tex` (LaTeX version, styled to match the DLN-series LaTeX formatting)
 
 ## Compile (optional)
 If you prefer the LaTeX workflow:
