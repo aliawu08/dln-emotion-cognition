@@ -16,8 +16,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from src.environment import EnvConfig, FactorBanditEnv
-from src.agents import DotAgent, LinearAgent, NetworkAgent
+from environment import EnvConfig, FactorBanditEnv
+from agents import DotAgent, LinearAgent, NetworkAgent
 
 
 ROOT = Path(__file__).resolve().parent

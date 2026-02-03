@@ -37,11 +37,12 @@ The paper proposes that DLN cognitive stage acts as a **hidden moderator** expla
 │   ├── analysis/                    # Analysis scripts
 │   └── outputs/                     # Generated results
 ├── computational/
-│   ├── src/                         # Agent implementations
+│   ├── agents.py                    # Agent implementations
+│   ├── environment.py               # Simulation environment
 │   ├── run_simulation.py            # Main simulation script
 │   └── outputs/                     # Simulation results
 ├── figures/
-│   ├── source/                      # Figure generation code
+│   ├── scripts/                     # Figure generation code
 │   └── export/                      # PNG and PDF exports
 ├── requirements.txt
 ├── CITATION.cff
@@ -68,7 +69,7 @@ python empirical_tests/analysis/analyze_experiment1.py
 python computational/run_simulation.py
 
 # Regenerate Figure 1 (contradiction map)
-python figures/source/contradiction_map.py
+python figures/scripts/contradiction_map.py
 ```
 
 ---
