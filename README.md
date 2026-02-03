@@ -23,8 +23,8 @@ The paper proposes that DLN cognitive stage acts as a **hidden moderator** expla
 
 ```
 ├── manuscript/
-│   ├── paper2.tex                   # LaTeX source (canonical)
-│   └── paper2.pdf                   # Compiled PDF
+│   ├── main.tex                     # LaTeX source (canonical)
+│   └── main.pdf                     # Compiled PDF
 ├── evidence_synthesis/
 │   ├── protocol/                    # Meta-analysis protocol and coding manual
 │   ├── extraction/                  # Data extraction templates
