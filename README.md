@@ -37,7 +37,8 @@ The paper proposes that DLN cognitive stage acts as a **hidden moderator** expla
 │   ├── analysis/                    # Analysis scripts
 │   └── outputs/                     # Generated results
 ├── computational/
-│   ├── src/                         # Agent implementations
+│   ├── agents.py                    # Agent implementations
+│   ├── environment.py               # Simulation environment
 │   ├── run_simulation.py            # Main simulation script
 │   └── outputs/                     # Simulation results
 ├── figures/
