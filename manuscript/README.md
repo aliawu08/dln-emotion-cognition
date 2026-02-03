@@ -1,6 +1,6 @@
 # Manuscript
 
-This folder contains submission-ready manuscript files for Paper 2 in the DLN series.
+This folder contains submission-ready manuscript files for the DLN Emotion–Cognition study.
 
 ## Files
 - `Paper2_Emotion_Cognition_SubmissionReady.docx` (submission-ready)
