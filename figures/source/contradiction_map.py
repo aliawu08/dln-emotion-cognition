@@ -45,29 +45,31 @@ def main():
     for label, y0 in stages:
         rect = Rectangle((0.02, y0 + 0.02), 0.96, band_height, fill=False, linewidth=1.2)
         ax.add_patch(rect)
-        ax.text(0.03, y0 + band_height - 0.02, label, va="top", ha="left", fontsize=11)
+        # Position stage label in left margin, vertically centered in band
+        ax.text(0.04, y0 + 0.02 + band_height / 2, label, va="center", ha="left", fontsize=10, fontweight="bold")
 
     # Boxes are sized and wrapped to avoid overlap.
+    # Left boxes start at x=0.22 to avoid stage label overlap
     box_h = 0.18
     boxes = [
         ("Somatic marker (Damasio/Bechara). Emotion as signal. "
          "Real-world decision failures when affect is unavailable.",
-         (0.58, 0.78), (0.38, box_h)),
+         (0.56, 0.76), (0.40, box_h)),
         ("Affective neuroscience (Pessoa; constructionist). "
          "Neural integration and bidirectional coupling.",
-         (0.12, 0.78), (0.40, box_h)),
+         (0.22, 0.76), (0.32, box_h)),
         ("Dual-process / bias (Kahneman/Tversky; affect heuristic). "
          "Emotion as noise/bias via context-inappropriate signals.",
-         (0.58, 0.45), (0.38, box_h)),
+         (0.56, 0.43), (0.40, box_h)),
         ("Emotion regulation (Gross). "
          "Suppression vs reappraisal: strategy costs and benefits.",
-         (0.12, 0.45), (0.40, box_h)),
+         (0.22, 0.43), (0.32, box_h)),
         ("Reactive affect / impulsivity. "
          "Stimulus-driven responding and post-hoc rationalization.",
-         (0.12, 0.12), (0.40, box_h)),
+         (0.22, 0.10), (0.32, box_h)),
         ("Implicit–explicit gaps (IAT vs self-report). "
          "Influence without awareness.",
-         (0.58, 0.12), (0.38, box_h)),
+         (0.56, 0.10), (0.40, box_h)),
     ]
 
     for text, (x, y), (w, h) in boxes:
@@ -75,17 +77,17 @@ def main():
         ax.add_patch(rect)
         width_chars = max(22, int(w * 78))  # heuristic mapping from box width to chars
         ax.text(
-            x + 0.012, y + h - 0.012,
+            x + w / 2, y + h / 2,  # center of box
             _wrap(text, width_chars=width_chars),
-            va="top", ha="left",
+            va="center", ha="center",
             fontsize=8.6,
             clip_on=True,
         )
 
-    # Moderator arrows
-    ax.add_patch(FancyArrowPatch((0.77, 0.64), (0.77, 0.78), arrowstyle="->", mutation_scale=12, linewidth=1.0))
-    ax.add_patch(FancyArrowPatch((0.77, 0.30), (0.77, 0.45), arrowstyle="->", mutation_scale=12, linewidth=1.0))
-    ax.text(0.79, 0.71, "DLN stage\nmoderates", fontsize=9, va="center", ha="left")
+    # Moderator arrows (connecting bands vertically on the right side)
+    ax.add_patch(FancyArrowPatch((0.80, 0.62), (0.80, 0.76), arrowstyle="->", mutation_scale=12, linewidth=1.0))
+    ax.add_patch(FancyArrowPatch((0.80, 0.29), (0.80, 0.43), arrowstyle="->", mutation_scale=12, linewidth=1.0))
+    ax.text(0.82, 0.69, "DLN stage\nmoderates", fontsize=9, va="center", ha="left")
 
     ax.text(
         0.5, 0.02,
