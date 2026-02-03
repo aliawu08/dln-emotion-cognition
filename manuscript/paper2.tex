@@ -13,8 +13,7 @@
 
 \title{Cognitive Architecture as Hidden Moderator:\\
 Reconciling Contradictory Emotion--Cognition Findings\\
-with the Dot--Linear--Network (DLN) Framework\\[0.6em]
-\large Emotion--Cognition Fusion in the DLN Framework: A Developmental Extension from Reactive Separation to Integrated Processing}
+with the Dot--Linear--Network (DLN) Framework}
 
 \author{
 Alia Wu\\
@@ -384,7 +383,7 @@ Implementation Roadmap (Open Science): A pragmatic path from theory to cumulativ
 
 \subsection{Computational Illustration and Reproducibility}
 
-To connect the present framework to an explicit mechanism, the accompanying repository includes a runnable DLN-style simulation (dot vs. linear vs. network controllers) aligned with the DLN computational paper (Wu, 2026). In a toy decision environment with latent factors (F $\in \{2,4,8\}$) and increasing representational dimensionality (K $\in \{4,8,16,32\}$), network-stage agents show an increasing net advantage over linear-stage agents as task structure becomes more complex. Aggregated across 30 runs per K condition (F-by-seed settings), mean net reward at $K=32$ was 0.618 for network-stage agents versus 0.170 for linear-stage agents ($\Delta$=0.448). These simulations are \textbf{illustrative} rather than empirical validation, but they demonstrate that a stage-based architecture can generate regime shifts consistent with the proposed ``emotion as signal'' versus ``emotion as noise'' moderation.
+To connect the present framework to an explicit mechanism, the accompanying repository includes a runnable DLN-style simulation (dot vs. linear vs. network controllers) aligned with the DLN computational paper (Wu, 2026). \textbf{Important:} This simulation is a proof-of-concept demonstration intended to show that stage-based architectures \emph{can} produce the predicted regime shifts; it does not constitute empirical validation of the fusion model's claims about human cognition. In a toy decision environment with latent factors (F $\in \{2,4,8\}$) and increasing representational dimensionality (K $\in \{4,8,16,32\}$), network-stage agents show an increasing net advantage over linear-stage agents as task structure becomes more complex. Aggregated across 30 runs per K condition (F-by-seed settings), mean net reward at $K=32$ was 0.618 for network-stage agents versus 0.170 for linear-stage agents ($\Delta$=0.448). These simulations demonstrate that a stage-based architecture can generate regime shifts consistent with the proposed ``emotion as signal'' versus ``emotion as noise'' moderation, but the empirical predictions in Section 4 require testing with human participants.
 
 To prevent confusion, all empirical-layer CSVs shipped with this repository are explicitly labeled as synthetic demo data (e.g., \texttt{synthetic\_experiment1\_demo.csv}) and are provided solely to document the analysis pipeline and expected schema.
 
