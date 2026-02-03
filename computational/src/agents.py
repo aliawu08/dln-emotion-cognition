@@ -1,6 +1,6 @@
-"""DLN agent implementations (Paper 2 repo).
+"""DLN agent implementations.
 
-These agents mirror the mapping used in the DLN computational paper (Paper 1):
+These agents mirror the mapping used in the DLN computational framework (Wu, 2026):
 
 - Dot: reactive policy with negligible persistent belief state.
 - Linear: K independent option-value estimates (no information sharing).
@@ -8,8 +8,8 @@ These agents mirror the mapping used in the DLN computational paper (Paper 1):
 
 This code is a simplified, runnable reference implementation intended for:
 - generating qualitative regime diagrams,
-- producing synthetic predictions that connect to Paper 2's emotion–cognition hypotheses,
-- serving as a starting point for more faithful reproductions of the Paper 1 model.
+- producing synthetic predictions that connect to the fusion model's emotion–cognition hypotheses,
+- serving as a starting point for more faithful reproductions of the DLN computational model.
 
 """
 

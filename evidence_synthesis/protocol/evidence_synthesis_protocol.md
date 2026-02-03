@@ -17,7 +17,7 @@ This protocol operationalizes that claim in a way that can be executed as a form
 
 ### Included
 - Quantitative meta-analyses and systematic reviews that report standardized effect sizes (e.g., *d*, *g*, *r*, OR) **or** provide sufficient information to derive them.
-- Topics that map directly onto Paper 2's mechanisms:
+- Topics that map directly onto the fusion model's mechanisms:
   - emotion regulation strategies (suppression, reappraisal, attentional deployment, etc.)
   - implicit vs explicit measures / dissociations
   - interoception and emotional awareness (including alexithymia)

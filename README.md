@@ -46,7 +46,7 @@ python figures/source/contradiction_map.py
   - Adjust `K`, `F`, noise parameters, and learning hyperparameters in `computational/run_simulation.py`.
 
 ## Citation for the DLN computational framework
-Wu, A. (2026). *Dot-Linear-Network: A Computational Framework for Cognitive Architecture*. DOI: 10.13140/RG.2.2.11937.26728
+Wu, A. (2026). *Compression Efficiency and Structural Learning as a Computational Model of DLN Cognitive Stages*. DOI: 10.13140/RG.2.2.11937.26728
 
 ## License
 This repo is released under CC BY 4.0 unless otherwise noted (see `LICENSE`).

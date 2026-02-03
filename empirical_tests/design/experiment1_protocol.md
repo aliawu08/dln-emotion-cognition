@@ -1,7 +1,7 @@
 # Experiment 1 Protocol (Preregisterable)
 
 ## Goal
-Test the core Paper 2 claim with **new data**:
+Test the core fusion model claim with **new data**:
 
 > DLN stage moderates whether affective load functions as interference (linear suppression) or as informative signal (network integration).
 
@@ -28,7 +28,7 @@ H2: The same stage signatures appear across measures:
 ## Operationalization of DLN stage
 Minimum viable approach:
 - A structured representation task (causal mapping / relational integration / feedback reasoning)
-- Scoring rubric consistent with Paper 1 computational definitions:
+- Scoring rubric consistent with the DLN computational framework (Wu, 2026):
   - dot: minimal persistent structure
   - linear: chain-like, single-cause narratives
   - network: multi-causal, feedback-aware representations
