@@ -103,7 +103,7 @@ python figures/scripts/contradiction_map.py
 This paper builds on the DLN computational framework:
 
 > Wu, A. (2026). *Compression Efficiency and Structural Learning as a Computational Model of DLN Cognitive Stages*.
-> DOI: [10.13140/RG.2.2.11937.26728](https://doi.org/10.13140/RG.2.2.11937.26728)
+> DOI: [10.64898/2026.02.01.703168](https://doi.org/10.64898/2026.02.01.703168) (bioRxiv)
 > Repository: [github.com/aliawu08/dln-compression-model](https://github.com/aliawu08/dln-compression-model)
 
 ---
