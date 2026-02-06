@@ -24,6 +24,7 @@ from typing import Dict, List, Tuple
 import numpy as np
 import pandas as pd
 from scipy.optimize import minimize_scalar
+from scipy.stats import t as t_dist
 
 
 @dataclass
@@ -90,10 +91,18 @@ def fit_reml(y: np.ndarray, v: np.ndarray, X: np.ndarray) -> MetaResult:
     XtWX = XtW @ X
 
     beta = np.linalg.solve(XtWX, XtW @ y)
-    vcov = np.linalg.inv(XtWX)
+    vcov_naive = np.linalg.inv(XtWX)
+
+    # Knapp-Hartung correction: scale vcov by residual heterogeneity
+    e_re = y - X @ beta
+    qe = max(float(e_re.T @ W @ e_re) / max(k - p, 1), 1.0)
+    vcov = qe * vcov_naive
     se = np.sqrt(np.diag(vcov))
 
-    ci95 = np.vstack([beta - 1.96 * se, beta + 1.96 * se]).T
+    # t-based CI with k-p degrees of freedom (Knapp-Hartung)
+    df_kh = max(k - p, 1)
+    t_crit = float(t_dist.ppf(0.975, df_kh))
+    ci95 = np.vstack([beta - t_crit * se, beta + t_crit * se]).T
 
     # Cochran's Q on the fixed-effects weights (classic definition)
     e_fe = y - X @ np.linalg.solve(X.T @ np.diag(1.0 / v) @ X, X.T @ np.diag(1.0 / v) @ y)

@@ -105,11 +105,9 @@ class TestFitReml:
             f"Coverage={coverage:.3f}; Wald CIs should be near-nominal with k={k}"
         )
 
-    def test_ci_coverage_small_k_undercoverage_expected(self):
-        """With k=5, Wald CIs are known to undercover. This test documents
-        the limitation — a Knapp-Hartung correction would be needed for
-        truly small meta-analyses. We assert coverage is at least 0.85
-        (not catastrophic) but allow below 0.95."""
+    def test_ci_coverage_small_k(self):
+        """With k=5 and the Knapp-Hartung correction (t-based CIs),
+        coverage should be near-nominal even for small meta-analyses."""
         rng = np.random.default_rng(54321)
         true_mu, true_tau2, k = 0.3, 0.05, 5
         hits = 0
@@ -122,8 +120,9 @@ class TestFitReml:
             if res.ci95[0, 0] <= true_mu <= res.ci95[0, 1]:
                 hits += 1
         coverage = hits / n_sim
-        assert coverage >= 0.85, (
-            f"Coverage={coverage:.3f}; even with small k, should not be catastrophically low"
+        assert 0.92 <= coverage <= 0.99, (
+            f"Coverage={coverage:.3f}; Knapp-Hartung should achieve near-nominal "
+            f"coverage even with k={k}"
         )
 
     def test_with_moderator_reduces_heterogeneity(self):
