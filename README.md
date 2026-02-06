@@ -4,6 +4,8 @@ This repository accompanies the paper *"Cognitive Architecture as Hidden Moderat
 
 The paper proposes that DLN cognitive stage acts as a **hidden moderator** explaining why emotion–cognition findings appear contradictory: emotion functions as noise under linear suppression but as signal under network integration.
 
+**Preprint:** [PsychArchives](https://psycharchives.org/en/item/b4dc1d67-acb7-4327-939e-bc2ca0ef54b4) | DOI: [10.23668/psycharchives.21641](https://doi.org/10.23668/psycharchives.21641)
+
 **Contact:** Alia Wu — wut08@nyu.edu
 **ORCID:** [0009-0005-4424-102X](https://orcid.org/0009-0005-4424-102X)
 
@@ -92,7 +94,8 @@ python figures/scripts/contradiction_map.py
             Reconciling Contradictory Emotion–Cognition Findings
             with the Dot–Linear–Network (DLN) Framework},
   author = {Wu, Alia},
-  year   = {2026}
+  year   = {2026},
+  doi    = {10.23668/psycharchives.21641}
 }
 ```
 
