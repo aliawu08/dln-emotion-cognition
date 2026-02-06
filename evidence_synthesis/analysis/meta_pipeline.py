@@ -78,7 +78,7 @@ def fit_reml(y: np.ndarray, v: np.ndarray, X: np.ndarray) -> MetaResult:
 
     res = minimize_scalar(
         lambda t: _reml_objective(t, y, v, X),
-        bounds=(0.0, 1.0),
+        bounds=(0.0, 10.0),
         method="bounded",
         options={"xatol": 1e-6},
     )
