@@ -1,0 +1,9 @@
+[project]
+name = "dln-emotion-cognition"
+version = "0.1.0"
+description = "DLN emotion-cognition framework: evidence synthesis, simulations, and empirical tests."
+requires-python = ">=3.8"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

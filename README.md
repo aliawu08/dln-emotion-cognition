@@ -46,7 +46,9 @@ The paper proposes that DLN cognitive stage acts as a **hidden moderator** expla
 ├── figures/
 │   ├── scripts/                     # Figure generation code
 │   └── export/                      # PNG and PDF exports
+├── tests/                           # Pytest suite (agents, meta-analysis, numerics)
 ├── requirements.txt
+├── pyproject.toml
 ├── CITATION.cff
 └── LICENSE
 ```
@@ -60,6 +62,9 @@ The paper proposes that DLN cognitive stage acts as a **hidden moderator** expla
 ```bash
 # Install dependencies
 pip install -r requirements.txt
+
+# Run tests
+pytest
 
 # Run evidence synthesis demo
 python evidence_synthesis/analysis/run_meta_example.py
