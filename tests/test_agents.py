@@ -198,16 +198,23 @@ class TestNetworkAgent:
 
 class TestAgentOrdering:
     def _run_comparison(self, K, F, T, n_seeds):
+        """Run each agent on its own fresh env (same seed) so the noise
+        stream is controlled — all agents face identical noise for the
+        same action sequence."""
         rewards = {"dot": [], "linear": [], "network": []}
         for seed in range(n_seeds):
-            env = FactorBanditEnv(EnvConfig(K=K, F=F, seed=seed))
+            # Need loadings from the env to construct NetworkAgent
+            ref_env = FactorBanditEnv(EnvConfig(K=K, F=F, seed=seed))
+            L = ref_env.L
+
             agents = {
                 "dot": DotAgent(K=K, rng=np.random.default_rng(seed + 1)),
                 "linear": LinearAgent(K=K, rng=np.random.default_rng(seed + 2)),
-                "network": NetworkAgent(K=K, F=F, option_loadings=env.L,
+                "network": NetworkAgent(K=K, F=F, option_loadings=L,
                                         rng=np.random.default_rng(seed + 3)),
             }
             for name, agent in agents.items():
+                env = FactorBanditEnv(EnvConfig(K=K, F=F, seed=seed))
                 total = 0.0
                 for _ in range(T):
                     a = agent.choose()

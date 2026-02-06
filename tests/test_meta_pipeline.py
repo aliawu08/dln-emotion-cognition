@@ -87,6 +87,45 @@ class TestFitReml:
         assert result.k == 3
         assert result.p == 1
 
+    def test_ci_coverage_large_k(self):
+        """With k=30 studies, Wald-type 95% CIs should achieve near-nominal coverage."""
+        rng = np.random.default_rng(12345)
+        true_mu, true_tau2, k = 0.3, 0.05, 30
+        hits = 0
+        n_sim = 400
+        for _ in range(n_sim):
+            theta_i = rng.normal(true_mu, np.sqrt(true_tau2), size=k)
+            vi = rng.uniform(0.02, 0.08, size=k)
+            yi = theta_i + rng.normal(0, np.sqrt(vi))
+            res = fit_reml(yi, vi, np.ones((k, 1)))
+            if res.ci95[0, 0] <= true_mu <= res.ci95[0, 1]:
+                hits += 1
+        coverage = hits / n_sim
+        assert 0.92 <= coverage <= 0.98, (
+            f"Coverage={coverage:.3f}; Wald CIs should be near-nominal with k={k}"
+        )
+
+    def test_ci_coverage_small_k_undercoverage_expected(self):
+        """With k=5, Wald CIs are known to undercover. This test documents
+        the limitation — a Knapp-Hartung correction would be needed for
+        truly small meta-analyses. We assert coverage is at least 0.85
+        (not catastrophic) but allow below 0.95."""
+        rng = np.random.default_rng(54321)
+        true_mu, true_tau2, k = 0.3, 0.05, 5
+        hits = 0
+        n_sim = 400
+        for _ in range(n_sim):
+            theta_i = rng.normal(true_mu, np.sqrt(true_tau2), size=k)
+            vi = rng.uniform(0.02, 0.08, size=k)
+            yi = theta_i + rng.normal(0, np.sqrt(vi))
+            res = fit_reml(yi, vi, np.ones((k, 1)))
+            if res.ci95[0, 0] <= true_mu <= res.ci95[0, 1]:
+                hits += 1
+        coverage = hits / n_sim
+        assert coverage >= 0.85, (
+            f"Coverage={coverage:.3f}; even with small k, should not be catastrophically low"
+        )
+
     def test_with_moderator_reduces_heterogeneity(self):
         """When a moderator truly explains variance, moderated tau^2 < baseline tau^2."""
         rng = np.random.default_rng(10)
