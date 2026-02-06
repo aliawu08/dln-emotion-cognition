@@ -26,11 +26,10 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 def run_once(K: int, F: int, T: int, seed: int = 0) -> dict:
     env = FactorBanditEnv(EnvConfig(K=K, F=F, seed=seed))
-    rng = np.random.default_rng(seed + 123)
 
-    dot = DotAgent(K=K, rng=rng)
-    lin = LinearAgent(K=K, rng=rng)
-    net = NetworkAgent(K=K, F=F, option_loadings=env.L, rng=rng)
+    dot = DotAgent(K=K, rng=np.random.default_rng(seed + 1))
+    lin = LinearAgent(K=K, rng=np.random.default_rng(seed + 2))
+    net = NetworkAgent(K=K, F=F, option_loadings=env.L, rng=np.random.default_rng(seed + 3))
 
     agents = {"dot": dot, "linear": lin, "network": net}
 
