@@ -1,0 +1,11 @@
+response_sheet_greenwald
+coder_name;coder_date;criterion_domain;domain_desc;category_assignment;rationale;confidence
+Ang Li;Feb 22, 26;consumer;Snap consumer judgments; approach-avoidance responses;A;"Consumer judgments are reactive; low deliberation; stimulus-bound approach-avoidance";high
+Ang Li;Feb 22, 26;race_black_white;Intergroup discrimination (Black/White); social desirability pressure;B;"Intergroup behavior with strong social-desirability pressure; rule-governed self-monitoring";high
+Ang Li;Feb 22, 26;politics;Political behavior; social identity and normative pressure;B;Social identity and normative pressure create explicit-implicit divergence;high
+Ang Li;Feb 22, 26;gender_sex;Gender/sex intergroup behavior; social desirability pressure;B;Intergroup discrimination with social desirability pressure;high
+Ang Li;Feb 22, 26;other_intergroup;Other intergroup discrimination; rule-governed self-monitoring;B;"Intergroup behavior; self-regulated responding under social norms";medium
+Ang Li;Feb 22, 26;relationships;Close-relationship dynamics; sustained relational engagement;C;"Sustained relational engagement; integrative self-knowledge across social contexts";high
+Ang Li;Feb 22, 26;personality;Personality traits; spans trait-automatic and self-awareness processes;M;"Spans reactive trait expression and integrative self-knowledge; not clearly one stage";medium
+Ang Li;Feb 22, 26;drugs_tobacco;Drug/tobacco clinical criteria; varies by specific criterion behavior;M;"Heterogeneous criteria; addictive behavior spans automatic craving and deliberate health decisions";medium
+Ang Li;Feb 22, 26;clinical;Clinical criteria; ranges from phobic avoidance to health behavior;M;"Mixed clinical criteria; phobic reactions are automatic but health behaviors are rule-governed";medium

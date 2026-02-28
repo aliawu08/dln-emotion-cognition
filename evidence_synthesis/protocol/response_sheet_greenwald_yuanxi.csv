@@ -1,0 +1,11 @@
+response_sheet_greenwald
+coder_name;coder_date;criterion_domain;domain_desc;category_assignment;rationale;confidence
+Yuanxi;Feb 22, 26;consumer;Snap consumer judgments; approach-avoidance responses;A;Snap purchase decisions and approach-avoidance responses are immediate stimulus-driven reactions with minimal deliberation.;high
+Yuanxi;Feb 22, 26;race_black_white;Intergroup discrimination (Black/White); social desirability pressure;B;Intergroup discrimination under social desirability pressure suppresses explicit-implicit alignment.;high
+Yuanxi;Feb 22, 26;politics;Political behavior; social identity and normative pressure;B;Political behavior under social scrutiny involves self-regulated responses shaped by norms and identity.;high
+Yuanxi;Feb 22, 26;gender_sex;Gender/sex intergroup behavior; social desirability pressure;B;Gender-related intergroup behavior is subject to social desirability and normative self-monitoring.;high
+Yuanxi;Feb 22, 26;other_intergroup;Other intergroup discrimination; rule-governed self-monitoring;B;Intergroup discrimination involves rule-governed self-monitoring under normative pressure.;medium
+Yuanxi;Feb 22, 26;relationships;Close-relationship dynamics; sustained relational engagement;C;Close-relationship dynamics require sustained relational engagement and context-dependent integration.;high
+Yuanxi;Feb 22, 26;personality;Personality traits; spans trait-automatic and self-awareness processes;M;"Personality spans trait-automatic (dot-like) and self-awareness (network-like) processes, making classification ambiguous.";medium
+Yuanxi;Feb 22, 26;drugs_tobacco;Drug/tobacco clinical criteria; varies by specific criterion behavior;M;"Clinical/health criterion behaviors vary by specific measure; some are reactive (craving) while others are deliberative (cessation).";medium
+Yuanxi;Feb 22, 26;clinical;Clinical criteria; ranges from phobic avoidance to health behavior;M;"Clinical criteria range from phobic avoidance (dot-like) to health behavior (linear-like), preventing clear classification.";medium
