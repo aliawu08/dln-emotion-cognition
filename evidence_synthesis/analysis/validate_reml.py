@@ -558,7 +558,7 @@ def _run_webb_comparison() -> Dict[str, float]:
         "threelevel_mod_se_linear": res_3level_mod.se[1],
         "threelevel_mod_beta_network": res_3level_mod.beta[2],
         "threelevel_mod_se_network": res_3level_mod.se[2],
-        "threelevel_mod_QM": 0.0,  # placeholder; rma.mv reports this differently
+        "threelevel_mod_QM": 0.0,  # rma.mv omnibus QM uses different df; not directly comparable
         "threelevel_mod_QMp": 0.0,
         "cr2_se_intcp": cr2.se_robust[0],
         "cr2_se_linear": cr2.se_robust[1],
