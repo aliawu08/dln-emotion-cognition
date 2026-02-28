@@ -1,0 +1,2 @@
+analysis,n_domains,n_groups,dln_tau2,n_partitions,median_perm_tau2,mean_perm_tau2,min_perm_tau2,pct_5_perm_tau2,p_value,percentile_rank
+domain_level_permutation,9,4,0.01119,7770,0.014886,0.014525,0.00973,0.011343,0.0413,95.9

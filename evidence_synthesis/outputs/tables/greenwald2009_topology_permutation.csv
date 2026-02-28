@@ -1,0 +1,2 @@
+dln_tau2,n_permutations,seed,median_perm_tau2,mean_perm_tau2,min_perm_tau2,pct_5_perm_tau2,p_value,percentile_rank
+0.01119,10000,20260219,0.016712,0.016567,0.012099,0.015502,0.0,100.0

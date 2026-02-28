@@ -1,0 +1,10 @@
+response_sheet_hoyt
+coder_name;coder_date;health_domain;domain_desc;category_assignment;rationale;confidence
+Ang Li;Feb 22, 26;biological_physiological;Biomarkers: cortisol / inflammatory / immune / cardiovascular;A;"Direct physiological measurement; no cognitive mediation required from the participant";high
+Ang Li;Feb 22, 26;physical_health;Self-reported symptoms / functional status / pain;A;"Self-reported somatic measurement of bodily state; no cognitive mediation";high
+Ang Li;Feb 22, 26;behavioral;Health behaviours: exercise / adherence / sleep;A;"Concrete action-level behaviour measurement; no cognitive mediation";high
+Ang Li;Feb 22, 26;mental_emotional_distress;Depression / anxiety / negative affect / general distress;B;"Single-dimension severity rating about mental distress; compartmentalised symptom scale";high
+Ang Li;Feb 22, 26;risk_related_adjustment;Intrusive thoughts / avoidance / hyperarousal / maladaptive schemas;B;"Trauma/ stress-related symptom severity measurement; limited contextual integration";medium
+Ang Li;Feb 22, 26;positive_psychological_health;Well-being / life satisfaction / positive affect / flourishing;C;Global psychological factors evaluation requires participant to evaluate and integrate affect with broader life context;high
+Ang Li;Feb 22, 26;social_functioning;Relationship quality / social support / social adjustment;C;"Inherently relational evaluation; requires integration of emotional and social context";high
+Ang Li;Feb 22, 26;resilience_adjustment;Post-traumatic growth / benefit finding / sense of coherence / coping self-efficacy;C;Meaning-making evaluation requires integrative appraisal of experience and contextual and existential integration;high

@@ -1,0 +1,11 @@
+coder_name,coder_date,strategy_family,strategy_sub,category_assignment,rationale,confidence
+Yuanxi Jiang,21-Feb-26,situation_selection,situation_selection,A,Webb's operationalization refers to reactive avoidance (stimulus-driven withdrawal) rather than deliberate planning.,Medium
+Yuanxi Jiang,21-Feb-26,attentional_deployment,concentration,A,Webb's operationalization refers to rumination (stimulus-driven fixation on emotional content) rather than deliberate attentional control.,High
+Yuanxi Jiang,21-Feb-26,situation_modification,situation_modification,C,The situation modification might require flexible integration of information to manage related elements such as people and resources.,High
+Yuanxi Jiang,21-Feb-26,attentional_deployment,distraction,B,The distraction redirects the attentional process and involves more than stimulus-driven responding.,Medium
+Yuanxi Jiang,21-Feb-26,response_modulation,expressive_suppression,B,The expressive suppression is the result of controlled processing.,High
+Yuanxi Jiang,21-Feb-26,response_modulation,other_modulation,B,"The ""other"" is vague. I classified it as B under the assumption that it relates to bodily/action adjustment, but it could also fit the other two categories.",Low
+Yuanxi Jiang,21-Feb-26,cognitive_change,reappraisal,C,Reappraisal requires re-interpreting meaning and relating emotional information to make an adjustment.,High
+Yuanxi Jiang,21-Feb-26,cognitive_change,perspective_taking,C,Perspectives taking requires the person to increase understanding across multiple views and broaden recognition.,High
+Yuanxi Jiang,21-Feb-26,cognitive_change,other_cognitive,C,"The ""Other"" can be vague to decide, but the change is commonly influenced by multiple factors.",Medium
+Yuanxi Jiang,21-Feb-26,response_modulation,acceptance,B,"The acceptance can be managed through rule-based processing and practice, regardless of whether it is effective.",Medium

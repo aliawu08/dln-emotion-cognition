@@ -1,0 +1,56 @@
+DLN BOUNDARY-CONDITION ANALYSIS: Zanini et al. (2025)
+=====================================================
+
+CODING OUTCOME
+All 110 studies used the standard 100-trial IGT with healthy naive
+participants.  Per the pre-specified rubric (Step 3: standard IGT with
+naive participants -> dot), every study is coded as dot stage.
+
+  k_dot     = 110
+  k_linear  =   0
+  k_network =   0
+  Between-stage variation: NONE
+
+DLN PREDICTION
+Because all studies occupy a single DLN stage, there is no between-stage
+variation for DLN to explain.  DLN predicts:
+  - No heterogeneity reduction from stage coding (tau2 reduction = 0%)
+  - Residual heterogeneity reflects within-stage sources (individual
+    differences, cultural factors, sample composition) that DLN is not
+    designed to capture
+
+CONSISTENCY CHECK
+Zanini et al. tested 7 moderators (mean age, publication year, sample
+size, study quality, monetary reward, task version, region).
+Result: NONE significant.
+
+This is consistent with the DLN boundary prediction: when task demands
+are homogeneous within a single stage, conventional moderators that do
+not index processing architecture should not resolve heterogeneity, and
+DLN stage coding (which requires between-stage variation) cannot reduce
+it either.
+
+THEORETICAL IMPLICATION
+This dataset tests a boundary condition of the DLN framework.  The
+theory predicts moderation only when task demands or sample
+characteristics create between-stage variation (e.g., a meta-analysis
+that includes both standard and modified IGT variants, or both naive
+and experienced participants).  A meta-analysis restricted to a single
+task variant with a single population type provides no leverage for
+DLN stage coding.
+
+The significant heterogeneity (Q=206.001, tau2=20.782) that persists
+in this all-dot dataset likely reflects:
+  (a) Variation in somatic marker sensitivity within dot-stage processing
+  (b) Cultural and demographic factors affecting IGT strategy adoption
+  (c) Methodological variation (lab conditions, instructions) that does
+      not cross DLN stage boundaries
+These are within-stage sources of variability, not the between-stage
+architectural differences that DLN is designed to detect.
+
+QUANTITATIVE SUMMARY
+  Overall effect:  UMD = 3.381 (males > females)
+  Heterogeneity:   Q(109) = 206.001, p < 0.001
+                   tau2 = 20.782, 95% CI [11.782, 48.921]
+  DLN stage coding: Not applicable (no between-stage variation)
+  DLN prediction:   Null (no moderation expected) -- CONFIRMED

@@ -1,0 +1,9 @@
+health_domain,domain_desc,k,source,estimate_status
+biological_physiological,Biomarkers: cortisol / inflammatory / immune / cardiovascular,8,Hoyt et al. 2024 Table 3 & Figure 2,verified_from_table
+physical_health,Self-reported symptoms / functional status / pain,21,Hoyt et al. 2024 Table 3 & Figure 2,verified_from_table
+behavioral,Health behaviours: exercise / adherence / sleep,8,Hoyt et al. 2024 Table 3 & Figure 2,verified_from_table
+mental_emotional_distress,Depression / anxiety / negative affect / general distress,66,Hoyt et al. 2024 Table 3 & Figure 2,verified_from_table
+risk_related_adjustment,Intrusive thoughts / avoidance / hyperarousal / maladaptive schemas,15,Hoyt et al. 2024 Table 3 & Figure 2,verified_from_table
+positive_psychological_health,Well-being / life satisfaction / positive affect / flourishing,25,Hoyt et al. 2024 Table 3 & Figure 2,verified_from_table
+social_functioning,Relationship quality / social support / social adjustment,15,Hoyt et al. 2024 Table 3 & Figure 2,verified_from_table
+resilience_adjustment,Post-traumatic growth / benefit finding / sense of coherence / coping self-efficacy,22,Hoyt et al. 2024 Table 3 & Figure 2,verified_from_table

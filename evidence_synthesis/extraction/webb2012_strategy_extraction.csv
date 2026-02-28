@@ -1,0 +1,11 @@
+strategy_family,strategy_sub,k,d_plus,se_d,vi,dln_stage_code,coding_rationale
+situation_selection,situation_selection,14,-0.03,0.13,0.0169,dot,Avoidance-based; minimal cognitive mediation; reactive withdrawal from emotional contexts (consensus: coders initially coded B blind but revised to A after receiving Webb's construct definitions)
+attentional_deployment,concentration,28,-0.26,0.10,0.0100,dot,Stimulus-driven rumination; focus on emotional stimulus without reappraisal or integration (consensus: coders initially coded B blind but revised to A after receiving Webb's construct definitions)
+situation_modification,situation_modification,9,0.17,0.16,0.0256,linear,Rule-based environmental control; sequential problem-solving without affective integration
+attentional_deployment,distraction,59,0.27,0.06,0.0036,linear,Active redirection of attention away from affect; compartmentalization of emotional input
+response_modulation,expressive_suppression,42,0.23,0.07,0.0049,linear,Direct suppression of emotional expression; compartmentalization strategy
+response_modulation,other_modulation,58,0.05,0.06,0.0036,linear,Miscellaneous response control; rule-governed behavioral regulation
+cognitive_change,reappraisal,49,0.45,0.07,0.0049,network,Integrative reframing; cognitive contextualization of emotional experience
+cognitive_change,perspective_taking,10,0.41,0.15,0.0225,network,Multi-perspective integration; relational understanding of others' emotional states
+cognitive_change,other_cognitive,37,0.20,0.08,0.0064,network,Broader cognitive change strategies requiring meaning-level integration
+response_modulation,acceptance,6,0.09,0.19,0.0361,network,Non-judgmental engagement with emotional experience; integration rather than suppression

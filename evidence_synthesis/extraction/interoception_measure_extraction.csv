@@ -1,0 +1,9 @@
+measure_family,measure_desc,k,r_pooled,N_total,se_r,vi,dln_stage_code,coding_rationale,source,estimate_status
+heartbeat_tasks,HCT/HPT objective heartbeat detection,32,-0.03,3500,0.017,0.000289,dot,Raw signal detection; stimulus-driven accuracy task; no cognitive mediation or emotional interpretation,Trevisan et al. 2019 (accuracy subset),estimate_from_literature
+bpq_ba,BPQ Body Awareness subscale,13,-0.05,2107,0.022,0.000484,dot,Simple body awareness reporting without interpretation; near-zero alexithymia association; passive noticing,Van Bael et al. 2024 Table 1,verified
+icq,Interoceptive Confusion Questionnaire,9,0.57,2355,0.021,0.000441,linear,Questionnaire items assess confusion about single-modality body signals without cross-modal or emotional integration components; unidimensional construct,Van Bael et al. 2024 Table 1,verified
+bpq_r,BPQ Reactivity Total,8,0.36,1347,0.028,0.000784,linear,Scale items assess reactivity intensity on a single arousal dimension; no items reference integration across body regions or emotional contexts,Van Bael et al. 2024 Table 1,verified
+edi_iaw,EDI Interoceptive Awareness,4,0.26,312,0.058,0.003364,linear,Eating disorder body monitoring; single-dimension distress tracking without integration,Van Bael et al. 2024 Table 1,verified
+ias,Interoceptive Accuracy Scale (self-report),11,-0.30,2263,0.021,0.000441,network,Metacognitive calibration of body signal accuracy across domains; multi-dimensional self-assessment,Van Bael et al. 2024 Table 1,verified
+maia_total,MAIA Total (8-subscale composite),10,-0.41,2140,0.022,0.000484,network,Multi-dimensional integrative awareness: noticing + emotional awareness + self-regulation + trusting,Van Bael et al. 2024 Table 1,verified
+baq,Body Awareness Questionnaire,2,-0.17,315,0.057,0.003249,network,Multi-contextual body-cognition coupling integrated with daily functioning,Van Bael et al. 2024 Table 1,verified

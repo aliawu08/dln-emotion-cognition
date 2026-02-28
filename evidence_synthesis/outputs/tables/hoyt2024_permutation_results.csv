@@ -1,0 +1,2 @@
+analysis,k,n_groups,stirling_number,dln_tau2,median_perm_tau2,mean_perm_tau2,min_perm_tau2,pct_5_perm_tau2,p_value,percentile_rank
+hoyt2024,8,3,966,0.0,0.038802,0.036513,0.0,0.009203,0.0083,99.2

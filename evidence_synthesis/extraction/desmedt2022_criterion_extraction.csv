@@ -1,0 +1,8 @@
+criterion,criterion_desc,k,r_pooled,N_approx,se_r,vi,dln_stage_code,coding_rationale,source,estimate_status
+heart_rate,Resting heart rate (physiological),40,-0.17,1009,0.031,0.000937,dot,Pure physiological measure; mechanistic link to cardiac signal strength; same-level as HCT,Desmedt et al. 2022 text p.4,verified_from_text
+bmi,Body mass index (biological marker),29,-0.11,768,0.036,0.001276,dot,Biological marker; adipose tissue attenuates cardiac signal; no cognitive mediation,Desmedt et al. 2022 text p.4,verified_from_text
+age,Chronological age,20,-0.06,599,0.041,0.001666,dot,Biological variable; vascular changes with age affect cardiac signal,Desmedt et al. 2022 text p.4,verified_from_text
+sex,Biological sex (male > female point-biserial),14,-0.14,877,0.033,0.001100,dot,Biological sex differences in cardiac physiology and interoceptive sensitivity,Desmedt et al. 2022 text p.4,verified_from_text
+trait_anxiety,STAI trait anxiety (self-report),40,0.03,685,0.038,0.001464,linear,Single-dimension arousal/valence self-report; no integration of bodily signals required,Desmedt et al. 2022 text p.4,verified_from_text
+depression,BDI depression severity (self-report),31,-0.04,269,0.061,0.003748,linear,Single-dimension severity self-report; cognitive-affective self-assessment without somatic integration,Desmedt et al. 2022 text p.4,verified_from_text
+alexithymia,TAS-20 alexithymia (self-report),23,-0.01,153,0.082,0.006664,linear,Self-report about emotion processing deficits; compartmentalised self-assessment,Desmedt et al. 2022 text p.4,verified_from_text

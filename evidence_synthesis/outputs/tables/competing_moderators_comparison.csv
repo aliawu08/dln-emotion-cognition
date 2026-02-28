@@ -1,0 +1,15 @@
+dataset,moderator,is_dln,k,n_levels,n_params,tau2_base,tau2_mod,pct_reduction,QM,QM_df,QM_p,aicc,aicc_base,perm_p
+Webb (k=10),DLN stage,True,10,3,3,0.035037,0.010546,69.9,30.02,2,0.0,-0.792,-10.743,0.0249
+Webb (k=10),Cognitive effort,False,10,2,2,0.035037,0.026868,23.3,12.65,1,0.0004,-5.123,-10.743,0.1448
+Webb (k=10),Gross process model,False,10,2,2,0.035037,0.04093,-16.8,2.63,1,0.1051,-2.898,-10.743,0.9883
+Interoception (k=8),DLN stage,True,8,3,3,0.133894,0.02053,84.7,1700.03,2,0.0,10.156,1.445,0.0021
+Interoception (k=8),Garfinkel trichotomy,False,8,3,3,0.133894,0.162932,-21.7,229.07,2,0.0,20.058,1.445,0.7257
+Interoception (k=8),Measurement method,False,8,2,2,0.133894,0.155548,-16.2,9.29,1,0.0023,8.811,1.445,0.874
+Interoception (k=8),Emotion-body link,False,8,2,2,0.133894,0.10224,23.6,858.01,1,0.0,7.165,1.445,0.1181
+Hoyt (k=8),DLN stage,True,8,3,3,0.03819,0.0,100.0,102.36,2,0.0,-0.47,-6.741,0.0083
+Hoyt (k=8),Construct valence,False,8,2,2,0.03819,0.014298,62.6,74.77,1,0.0,-2.965,-6.741,0.0551
+Hoyt (k=8),Measurement dimensionality,False,8,2,2,0.03819,0.016916,55.7,72.48,1,0.0,-1.419,-6.741,0.063
+Hoyt (k=8),Temporal frame,False,8,2,2,0.03819,0.010959,71.3,78.32,1,0.0,-4.391,-6.741,0.0394
+Desmedt (k=7),DLN stage,True,7,2,2,0.002019,0.000351,82.6,7.99,1,0.0047,-9.747,-18.352,0.1111
+Desmedt (k=7),Measurement objectivity,False,7,2,2,0.002019,0.000351,82.6,7.99,1,0.0047,-9.747,-18.352,0.1111
+Desmedt (k=7),Clinical relevance,False,7,2,2,0.002019,0.002716,-34.5,0.14,1,0.7086,-5.605,-18.352,0.8254

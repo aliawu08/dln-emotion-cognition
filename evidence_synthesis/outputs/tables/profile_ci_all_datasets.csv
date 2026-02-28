@@ -1,0 +1,9 @@
+dataset,model,k,tau2_hat,tau2_ci_lo,tau2_ci_hi
+Webb,baseline,10,0.035037,0.010602,0.124962
+Webb,DLN_moderator,10,0.010546,0.000628,0.060268
+Interoception,baseline,8,0.133894,0.054398,0.477377
+Interoception,DLN_moderator,8,0.02053,0.006419,0.103209
+Desmedt,baseline,7,0.002019,0.0,0.0135
+Desmedt,DLN_moderator,7,0.000351,0.0,0.007429
+Hoyt,baseline,8,0.03819,0.013762,0.144656
+Hoyt,DLN_moderator,8,0.0,0.0,0.007121

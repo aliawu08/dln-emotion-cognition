@@ -1,0 +1,16 @@
+webb_code,strategy_family,strategy_sub,k_outcomes,d_plus,ci_lo,ci_hi,se_d,vi,dln_stage_code,gross_process,coding_rationale
+D1,attentional_deployment,distraction_active_positive,6,0.47,0.11,0.84,0.186,0.0346,linear,antecedent,Active generation of pleasant mental content; rule-governed attentional redirection requiring deliberate sustained effort
+D2,attentional_deployment,distraction_passive_positive,10,0.18,-0.14,0.5,0.163,0.0266,linear,antecedent,Attending to externally provided positive stimuli; prescribed attentional procedure without meaning integration
+D3,attentional_deployment,distraction_active_neutral,20,0.38,0.21,0.56,0.089,0.0079,linear,antecedent,Deliberate neutral content generation; sequential identification and maintenance of neutral attentional target
+D4,attentional_deployment,distraction_passive_neutral,66,0.23,0.12,0.35,0.059,0.0035,linear,antecedent,Engaging with external neutral task (e.g. Scrabble); following task rules without emotional processing
+C1,attentional_deployment,concentrate_feelings,42,-0.14,-0.28,-0.0,0.071,0.005,dot,antecedent,Direct emotional immersion; stimulus-driven re-experiencing without cognitive mediation or transformation
+C2,attentional_deployment,concentrate_implications,33,-0.34,-0.48,-0.2,0.071,0.005,dot,antecedent,Stimulus-bound introspective analysis of emotional causes; attention remains on the emotional stimulus despite causal reasoning (consistent with blind coding of all concentration as dot)
+C3,attentional_deployment,concentrate_mixed,38,-0.36,-0.51,-0.21,0.077,0.0059,dot,antecedent,Expressive engagement with emotional content without transformation or reframing; reactive immersion
+R1,cognitive_change,reappraise_response,31,0.23,0.12,0.33,0.054,0.0029,network,antecedent,Acceptance/mindfulness: non-judgmental integration of multiple aspects of emotional experience
+R2,cognitive_change,reappraise_stimulus,26,0.36,0.21,0.51,0.077,0.0059,network,antecedent,Cognitive reframing integrating stimulus meaning and alternative interpretations; meaning-level transformation
+R3,cognitive_change,reappraise_perspective,36,0.45,0.3,0.62,0.082,0.0067,network,antecedent,Multi-perspective integration; relational shift requiring flexible coordination of viewpoints
+R4,cognitive_change,reappraisal_mixed,6,0.89,0.24,1.54,0.332,0.1102,network,antecedent,Open-ended cognitive reframing drawing on multiple integrative processes (k=6; treat with caution)
+S1,response_modulation,suppress_expression,56,0.32,0.27,0.42,0.038,0.0014,linear,response,Deliberate behavioral control of emotional expression; monitoring and rule-following
+S2,response_modulation,suppress_experience,12,-0.04,-0.21,0.14,0.089,0.0079,dot,response,Raw experiential suppression without behavioral target or rule structure; reflexive rejection of emotional experience
+S3,response_modulation,suppress_thoughts,20,-0.12,-0.26,0.01,0.069,0.0048,linear,response,Deliberate thought suppression: rule-governed cognitive control requiring sustained monitoring
+S4,response_modulation,suppress_mixed,14,0.11,-0.05,0.27,0.082,0.0067,linear,response,Combined behavioral and experiential control; multi-target rule-governed suppression

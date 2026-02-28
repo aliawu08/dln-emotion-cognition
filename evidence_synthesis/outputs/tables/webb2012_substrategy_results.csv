@@ -1,0 +1,6 @@
+model,k,tau2,I2,Q,parameter,estimate,se,ci_lo,ci_hi
+baseline,15,0.077211,0.926,188.85,mu,0.1407,0.0795,-0.0298,0.3112
+DLN-stage moderator,15,0.022336,0.0,0.0,Intercept,-0.2233,0.0861,-0.4109,-0.0357
+DLN-stage moderator,15,0.022336,0.0,0.0,mod[linear],0.4305,0.1101,0.1907,0.6704
+DLN-stage moderator,15,0.022336,0.0,0.0,mod[network],0.5999,0.128,0.321,0.8789
+heterogeneity_reduction,15,0.054875,71.1,0.0,delta_tau2,0.054875,0.0,0.0,0.0

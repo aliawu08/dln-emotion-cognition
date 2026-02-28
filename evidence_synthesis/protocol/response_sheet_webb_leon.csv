@@ -1,0 +1,12 @@
+response_sheet_webb
+coder_name;coder_date;strategy_family;strategy_sub;category_assignment;rationale;confidence
+Ang Li;Feb 22, 26;situation_selection;situation_selection;A;"Webb's operationalization refers to reactive avoidance rather than deliberate planning";high
+Ang Li;Feb 22, 26;attentional_deployment;concentration;A;"Webb's operationalization refers to rumination (stimulus-driven) rather than deliberate attentional control";high
+Ang Li;Feb 22, 26;situation_modification;situation_modification;B;Structured actions to change situation features to manage emotion;medium
+Ang Li;Feb 22, 26;attentional_deployment;distraction;B;Rule-based attentional shift;high
+Ang Li;Feb 22, 26;response_modulation;expressive_suppression;B;Rule-based control of (emotional) response;medium
+Ang Li;Feb 22, 26;response_modulation;other_modulation;B;"Typically involves applying a procedure; limited integrative meaning-making";medium
+Ang Li;Feb 22, 26;cognitive_change;reappraisal;C;Reappraises a experience or some situations requires integration of emotion with context;high
+Ang Li;Feb 22, 26;cognitive_change;perspective_taking;C;"Requires having multiple viewpoints to re-interpret the context of the emotional event; relational, meaning-focused processing";high
+Ang Li;Feb 22, 26;cognitive_change;other_cognitive;C;Cognitive changes typically involve reappraising meaning beyond following a rule;medium
+Ang Li;Feb 22, 26;response_modulation;acceptance;C;"Changing someone’s attitudes or judgements requires a meta-cognitive shifting; rather than just suppressing it";medium

@@ -1,0 +1,6 @@
+filter_level,description,k,k_dot,k_linear,k_network,r_dot,r_linear,r_network,tau2_base,tau2_mod,I2_base,I2_mod,pct_reduction
+0. Full sample (k=184),"All samples, all DLN stages incl. mixed",125,40,73,12,0.329,0.333,0.183,0.01945,0.01823,0.7,0.692,6.3
+1. Drop mixed_unclear,Only dot/linear/network (cleanly codeable domains),125,40,73,12,0.329,0.333,0.183,0.01945,0.01823,0.7,0.692,6.3
+2. + Focused criterion (n_crit<=2),Single/dual criterion behavior (not composites),100,38,55,7,0.332,0.365,0.185,0.023776,0.022993,0.739,0.735,3.3
+3. + Adequate N (n>=30),Remove very small imprecise samples,75,29,40,6,0.334,0.36,0.182,0.026143,0.025082,0.795,0.793,4.1
+4. + Single IAT (n_iat==1),Clean single-IAT measurement,56,23,30,3,0.332,0.392,0.28,0.027291,0.027492,0.812,0.813,-0.7

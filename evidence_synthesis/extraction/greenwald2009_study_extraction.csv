@@ -1,0 +1,185 @@
+sample_id,citation,expt,sample,n,n_crit,topic,icc,n_iat,iat_type,ecc,n_expl,expl_type,iec
+1,Ames et al. (2007),1,1,121,1,Drugs/tobacco,0.137,3,Attitude,0.418,3,Multiple,0.058
+2,Amodio & Devine (2006),2,1,32,2,Race (Bl/Wh),0.156,2,Att/belief,0.333,1,Attitude,0.171
+3,Amodio & Devine (2006),3,2,21,3,Race (Bl/Wh),0.325,2,Multiple,,,
+4,Arcuri et al. (2008),1,1,52,1,Politics,0.642,1,Attitude,,,
+5,Arcuri et al. (2008),2,2,37,1,Politics,0.414,1,Attitude,,,
+6,Asendorpf et al. (2002),1,1,138,3,Personality,0.274,1,Self,0.260,3,Self,0.440
+7,Ashburn-Nardo et al. (2003),1,1,77,1,Race (Bl/Wh),0.230,1,Attitude,0.152,7,Belief,0.400
+8,Bain et al. (2004),1,1,138,2,Politics,0.462,1,Attitude,0.672,2,Belief,0.660
+9,Banse (2007),1,1,132,1,Personality,0.370,1,Attitude,0.480,1,Attitude,0.490
+10,Banse & Fischer (2002),1,1,94,1,Personality,0.219,2,Self,0.160,1,Self,0.150
+11,Banse et al. (2002),1,1,96,2,Relationships,0.133,1,Attitude,0.166,1,Attitude,0.230
+12,Bosson et al. (2000),1,1,83,6,Personality,0.161,1,Self,0.396,4,Self,0.220
+13,Brochu & Morrison (2007),1,1,37,3,Other intergroup,0.199,1,Attitude,0.459,1,Attitude,0.210
+14,Brockmyer & Oleson (2004),1,1,58,1,Other intergroup,0.071,1,Attitude,0.185,2,Attitude,0.003
+15,Brunel et al. (2004),1,1,50,2,Consumer,0.533,2,Belief,0.637,1,Attitude,0.504
+16,Brunstein & Schmitt (2004),1,1,44,1,Personality,0.498,1,Self,0.170,1,Self,0.108
+17,Brunstein & Schmitt (2004),1,2,44,1,Personality,0.009,1,Self,0.079,1,Self,0.028
+18,Carney (2006),1,1,29,19,Race (Bl/Wh),0.256,1,Attitude,0.007,1,Attitude,0.180
+19,Carney (2006),1,2,33,19,Race (Bl/Wh),0.058,1,Attitude,0.004,1,Attitude,0.160
+20,Carney et al. (2006),1,1,21,2,Race (Bl/Wh),0.266,1,Attitude,0.202,1,Attitude,0.269
+21,Carpenter (2000),1,1,125,1,Gender/sex,0.241,2,Att/belief,0.690,1,Attitude,0.459
+22,Conner & Barrett (2005),1,1,124,29,Personality,0.102,1,Self,0.255,1,Self,0.230
+23,Conner & Barrett (2005),2,2,84,13,Personality,0.086,1,Self,0.320,1,Self,0.001
+24,Cunningham et al. (2004),1,1,13,1,Race (Bl/Wh),0.790,1,Attitude,0.508,1,Attitude,0.004
+25,Czopp et al. (2004),1,1,132,3,Relationships,0.161,1,Attitude,0.218,1,Attitude,0.250
+26,Dal Cin et al. (2007),1,1,52,1,Drugs/tobacco,0.461,1,Self,,,
+27,Dasgupta & Rivera (2006),1,1,82,1,Gender/sex,0.060,1,Attitude,,,
+28,Dasgupta & Rivera (2006),2,1,67,1,Gender/sex,0.040,1,Attitude,,,
+29,DeSteno et al. (2006),1,1,46,1,Relationships,0.550,1,Self,0.170,1,Self,0.070
+30,Egloff & Schmukle (2002),3,1,62,6,Clinical,0.133,1,Self,0.093,1,Self,0.060
+31,Egloff & Schmukle (2002),4,2,33,7,Clinical,0.201,1,Self,0.129,1,Self,0.250
+32,Ellwart et al. (2006),1,1,48,3,Clinical,0.205,1,Attitude,0.677,2,Attitude,0.220
+33,Ellwart et al. (2006),2,2,18,1,Clinical,0.635,1,Attitude,0.648,2,Attitude,0.270
+34,Eyssel & Bohner (2007),1,1,130,1,Gender/sex,0.005,2,Belief,0.329,3,Belief,0.042
+35,Field et al. (2004),1,1,33,1,Drugs/tobacco,0.382,1,Attitude,,,
+36,Florack et al. (2001),1,1,20,1,Other intergroup,0.580,1,Attitude,0.200,1,Attitude,0.210
+37,Florack et al. (2001),1,2,26,2,Other intergroup,0.210,1,Attitude,0.100,1,Attitude,0.190
+38,Florack et al. (2001),1,3,21,3,Other intergroup,0.170,1,Attitude,0.630,1,Attitude,0.110
+39,Florack et al. (2004),1,1,105,1,Consumer,0.460,2,Att/belief,0.710,1,Attitude,0.470
+40,Florack et al. (2004),1,2,108,1,Consumer,0.480,2,Att/belief,0.750,1,Attitude,0.410
+41,Friedman et al. (2001),1,1,122,1,Clinical,0.380,1,Self,,,
+42,Friedman et al. (2001),1,2,122,1,Clinical,0.100,1,Attitude,,,
+43,Friese et al. (2006),1,1,25,1,Consumer,0.080,1,Attitude,0.360,1,Attitude,0.390
+44,Friese et al. (2006),1,2,27,2,Consumer,0.470,1,Attitude,0.740,1,Attitude,0.260
+45,Friese et al. (2007),1,1,1386,10,Politics,0.302,5,Attitude,0.560,5,Attitude,0.409
+46,Friese et al. (2008),1,1,42,1,Consumer,0.120,1,Attitude,0.600,1,Attitude,0.200
+47,Friese et al. (2008),1,2,43,1,Consumer,0.450,1,Attitude,0.240,1,Attitude,0.370
+48,Friese et al. (2008),2,3,33,1,Consumer,0.050,1,Attitude,0.350,1,Attitude,0.410
+49,Friese et al. (2008),2,4,33,1,Consumer,0.290,1,Attitude,0.080,1,Attitude,0.010
+50,Friese et al. (2008),3,5,21,1,Drugs/tobacco,0.240,1,Attitude,0.380,1,Attitude,0.180
+51,Friese et al. (2008),3,6,25,1,Drugs/tobacco,0.500,1,Attitude,0.110,1,Attitude,0.370
+52,Gabriel et al. (2007),1,1,69,1,Gender/sex,0.010,1,Attitude,0.174,2,Attitude,0.320
+53,Gawronski et al. (2003),1,1,119,1,Gender/sex,0.190,1,Belief,,,
+54,Gawronski et al. (2003),1,1,35,2,Other intergroup,0.181,1,Attitude,0.010,1,Belief,0.216
+55,Gawronski et al. (2003),1,2,34,2,Other intergroup,0.321,1,Attitude,0.110,1,Belief,0.161
+56,Gibson (2008),2,1,30,1,Consumer,0.487,1,Attitude,0.421,1,Attitude,0.349
+57,Gibson (2008),2,2,30,2,Consumer,0.139,1,Attitude,0.517,1,Attitude,0.011
+58,Glaser & Knowles (2008),1,1,48,1,Race (Bl/Wh),0.290,2,Att/belief,0.248,2,Attitude,0.298
+59,Gray et al. (2005),1,1,77,1,Clinical,0.355,1,Belief,,,
+60,Green et al. (2007),1,1,207,1,Race (Bl/Wh),0.138,2,Att/belief,0.021,2,Att/belief,0.017
+61,Heider & Skowronski (2007),1,1,140,2,Race (Bl/Wh),0.119,1,Attitude,0.042,2,Attitude,0.003
+62,Heider & Skowronski (2007),2,2,55,4,Race (Bl/Wh),0.272,1,Attitude,0.038,2,Attitude,0.284
+63,Hofmann & Friese (2008),1,1,29,1,Consumer,0.190,1,Attitude,0.470,1,Self,0.020
+64,Hofmann & Friese (2008),1,2,29,1,Consumer,0.400,1,Attitude,0.250,1,Self,0.260
+65,Hofmann et al. (2007),1,1,26,1,Consumer,0.340,1,Attitude,0.290,1,Self,0.290
+66,Hofmann et al. (2007),1,2,24,2,Consumer,0.090,1,Attitude,0.480,1,Self,0.480
+67,Hofmann et al. (2008),1,1,85,2,Race (Bl/Wh),0.118,1,Attitude,0.154,1,Attitude,0.341
+68,Hofmann et al. (2008),2,2,76,2,Race (Bl/Wh),0.192,1,Attitude,0.002,1,Attitude,0.001
+69,Houben & Wiers (2006a),1,1,96,2,Drugs/tobacco,0.153,3,Multiple,0.301,7,Multiple,0.107
+70,Houben & Wiers (2006b),1,1,46,2,Drugs/tobacco,0.386,1,Attitude,0.110,2,Attitude,0.346
+71,Houben & Wiers (2007a),1,1,42,2,Drugs/tobacco,0.410,1,Attitude,0.126,4,Attitude,0.330
+72,Houben & Wiers (2007b),1,1,46,2,Drugs/tobacco,0.289,2,Attitude,0.348,3,Attitude,0.145
+73,Houben & Wiers (2008),1,1,62,1,Drugs/tobacco,0.175,4,Attitude,0.341,2,Attitude,0.086
+74,Hugenberg & Bodenhausen (2003),1,1,24,1,Race (Bl/Wh),0.460,1,Attitude,0.054,1,Attitude,0.360
+75,Hugenberg & Bodenhausen (2003),2,2,24,1,Race (Bl/Wh),0.424,1,Attitude,0.187,1,Attitude,0.129
+76,Hugenberg & Bodenhausen (2004),1,1,20,1,Race (Bl/Wh),0.345,1,Attitude,0.032,1,Attitude,0.068
+77,Hugenberg & Bodenhausen (2004),2,2,57,1,Race (Bl/Wh),0.163,1,Attitude,0.030,1,Attitude,0.230
+78,Huijding et al. (2005),1,1,48,1,Drugs/tobacco,0.450,1,Attitude,0.692,1,Attitude,0.221
+79,Jajodia & Earleywine (2003),1,1,103,3,Drugs/tobacco,0.307,1,Belief,0.387,1,Belief,0.132
+80,Jellison et al. (2004),1,1,39,4,Gender/sex,0.258,1,Attitude,0.271,1,Attitude,0.510
+81,Kaminska-Feldman (2004),1,1,47,1,Other intergroup,0.227,1,Attitude,,,
+82,Karpinski & Hilton (2001),2,1,81,1,Consumer,0.030,1,Attitude,0.360,3,Multiple,0.160
+83,Karpinski & Steinman (2006),1,1,53,1,Consumer,0.277,3,Attitude,0.540,2,Attitude,0.101
+84,Karpinski et al. (2005),1,1,155,1,Politics,0.420,1,Attitude,0.721,2,Attitude,0.460
+85,Karpinski et al. (2005),2,2,109,1,Consumer,0.353,1,Attitude,0.698,1,Attitude,0.290
+86,Karpinski et al. (2005),3,3,72,1,Consumer,0.550,1,Attitude,0.960,2,Attitude,0.520
+87,Lemm (2000),1,1,33,1,Gender/sex,0.380,1,Attitude,0.160,1,Belief,0.130
+88,Levesque & Brown (2004),2,1,69,1,Personality,0.140,1,Self,0.440,1,Self,0.190
+89,Levesque & Brown (2004),3,2,78,2,Personality,0.060,1,Self,0.270,1,Self,0.020
+90,Livingston (2002),1,1,34,1,Other intergroup,0.370,1,Attitude,0.025,2,Belief,
+91,Livingston (2002),2,2,34,1,Other intergroup,0.040,1,Attitude,0.265,2,Belief,
+92,Livingston (2002),2,3,31,2,Race (Bl/Wh),0.430,2,Attitude,0.262,2,Belief,0.290
+93,Maison et al. (2001),1,1,70,1,Consumer,0.200,1,Attitude,0.465,3,Multiple,0.380
+94,Maison et al. (2001),2,2,50,1,Consumer,0.340,1,Attitude,,,,
+95,Maison et al. (2004),1,1,32,1,Consumer,0.535,1,Attitude,0.697,1,Attitude,0.474
+96,Maison et al. (2004),2,2,39,1,Consumer,0.352,1,Attitude,0.592,1,Attitude,0.431
+97,Maison et al. (2004),3,3,102,2,Consumer,0.572,1,Attitude,0.638,1,Attitude,0.404
+98,Maner et al. (2005),2,1,51,2,Other intergroup,0.130,1,Attitude,,,
+99,Marsh et al. (2001),1,1,36,1,Relationships,0.107,2,Belief,0.130,4,Multiple,0.055
+100,Marsh et al. (2001),1,2,71,1,Relationships,0.085,2,Belief,0.461,3,Multiple,0.032
+101,Marsh et al. (2001),1,3,80,1,Relationships,0.050,2,Belief,0.317,4,Multiple,0.013
+102,Martens et al. (2005),1,1,35,1,Personality,0.460,1,Self,0.120,1,Attitude,0.120
+103,Mauss et al. (2006),2,1,36,8,Clinical,0.345,1,Self,,,
+104,McConnell & Leibold (2001),1,1,41,15,Race (Bl/Wh),0.229,1,Attitude,0.085,1,Attitude,0.420
+105,McGraw & Mulligan (2003),1,1,93,2,Politics,0.418,2,Attitude,0.549,2,Self,0.480
+106,Mitchell et al. (2006),1,1,15,2,Politics,0.434,2,Belief,0.021,1,Self,0.173
+107,Neumann et al. (2004),1,1,37,2,Gender/sex,0.160,1,Attitude,0.238,1,Attitude,0.190
+108,Nock & Banaji (2007a),1,1,89,4,Clinical,0.493,2,Belief,,,
+109,Nock & Banaji (2007b),1,1,73,3,Clinical,0.376,1,Self,,,
+110,Nosek & Hansen (2008),2,1,926,1,Politics,0.647,1,Attitude,0.866,2,Attitude,0.637
+111,Nosek & Hansen (2008),4,2,1028,2,Consumer,0.304,1,Attitude,0.554,2,Attitude,0.370
+112,Nosek & Hansen (2008),5,3,82,1,Politics,0.552,2,Attitude,0.837,2,Attitude,0.576
+113,Nosek & Hansen (2008),7,4,203,2,Consumer,0.459,1,Attitude,0.780,2,Att/belief,0.499
+114,Nosek et al. (2002b),1,1,227,1,Personality,0.380,1,Attitude,0.490,1,Attitude,0.420
+115,K. R. Olson et al. (2006),1,1,76,1,Gender/sex,0.337,2,Attitude,0.512,2,Attitude,0.342
+116,M. A. Olson & Fazio (2004),3,1,26,2,Consumer,0.185,1,Attitude,0.870,1,Attitude,0.150
+117,M. A. Olson & Fazio (2004),3,2,33,2,Consumer,0.526,1,Attitude,0.880,1,Attitude,0.670
+118,M. A. Olson & Fazio (2004),4,3,12,1,Politics,0.310,1,Attitude,0.830,1,Attitude,0.560
+119,M. A. Olson & Fazio (2004),4,4,9,1,Politics,0.610,1,Attitude,0.850,1,Attitude,0.730
+120,Perugini (2005),1,1,48,1,Drugs/tobacco,0.640,1,Attitude,0.480,1,Attitude,0.480
+121,Perugini (2005),2,2,109,2,Consumer,0.190,1,Attitude,0.278,1,Attitude,0.090
+122,Phelps et al. (2000),1,1,12,1,Race (Bl/Wh),0.576,1,Attitude,0.047,1,Belief,
+123,Plessner et al. (2006),1,1,40,1,Consumer,0.572,1,Attitude,0.662,1,Attitude,0.443
+124,Plessner et al. (2006),2,2,109,2,Consumer,0.093,2,Attitude,0.301,3,Attitude,0.138
+125,Powell & Williams (2000),1,1,55,1,Other intergroup,0.313,1,Attitude,,,
+126,Redker & Gibson (in press),1,1,68,1,Consumer,0.262,1,Attitude,0.357,1,Attitude,0.210
+127,Richeson et al. (2003),1,1,15,3,Race (Bl/Wh),0.554,1,Attitude,,,
+128,Richeson et al. (2003),2,2,15,2,Race (Bl/Wh),0.610,1,Attitude,,,
+129,Richeson & Shelton (2003),1,1,21,2,Race (Bl/Wh),0.474,1,Attitude,0.389,1,Attitude,0.251
+130,Robinson et al. (2005),1,1,48,1,Drugs/tobacco,0.520,1,Attitude,0.491,1,Attitude,0.480
+131,Robinson et al. (2005),2,2,52,1,Drugs/tobacco,0.260,2,Attitude,0.456,1,Attitude,0.400
+132,Robinson et al. (2006),1,1,96,1,Clinical,0.210,1,Self,,,
+133,Robinson et al. (2006),2,2,61,4,Clinical,0.309,1,Self,,,
+134,Ronay & Kim (2006),1,1,126,2,Personality,0.204,2,Belief,0.134,3,Belief,0.090
+135,Rudman & Ashmore (2007),1,1,64,3,Race (Bl/Wh),0.265,2,Att/belief,0.395,2,Att/belief,0.268
+136,Rudman & Ashmore (2007),2,2,89,1,Other intergroup,0.380,1,Belief,0.239,3,Multiple,0.530
+137,Rudman & Ashmore (2007),2,3,89,2,Other intergroup,0.275,2,Att/belief,0.181,3,Multiple,0.192
+138,Rudman & Ashmore (2007),2,4,126,3,Race (Bl/Wh),0.205,2,Att/belief,0.033,3,Multiple,0.225
+139,Rudman & Glick (2001),1,1,27,2,Gender/sex,0.367,1,Belief,0.095,1,Belief,0.040
+140,Rudman & Glick (2001),1,2,19,2,Gender/sex,0.408,1,Belief,0.297,1,Belief,0.040
+141,Rudman & Heppen (2003),1,1,77,3,Gender/sex,0.318,1,Belief,0.057,1,Belief,0.170
+142,Rudman & Heppen (2003),2,2,121,3,Gender/sex,0.167,1,Belief,0.033,1,Belief,0.090
+143,Rudman & Heppen (2003),3,3,73,4,Gender/sex,0.269,2,Att/belief,0.104,2,Att/belief,0.242
+144,Rudman & Lee (2002),2,1,38,3,Race (Bl/Wh),0.232,1,Belief,0.147,2,Belief,0.190
+145,Rydell & McConnell (2006),4,1,29,2,Relationships,0.229,1,Attitude,0.433,1,Attitude,0.030
+146,Sargent & Theil (2001),1,1,38,1,Race (Bl/Wh),0.320,1,Attitude,0.070,1,Belief,0.010
+147,Scarabis et al. (2006),1,1,25,1,Consumer,0.595,2,Belief,0.373,2,Attitude,0.481
+148,Scarabis et al. (2006),1,2,24,2,Consumer,0.287,2,Belief,0.282,2,Attitude,0.397
+149,Scarabis et al. (2006),1,3,25,3,Consumer,0.165,2,Belief,0.301,2,Attitude,0.440
+150,Scarabis et al. (2006),1,4,24,4,Consumer,0.066,2,Belief,0.320,2,Attitude,0.039
+151,Schnabel et al. (2006a),1,1,100,4,Clinical,0.021,2,Self,0.193,7,Self,0.181
+152,Schnabel et al. (2006b),1,1,58,1,Clinical,0.170,1,Self,0.360,1,Self,0.150
+153,Sekaquaptewa et al. (2003),1,1,79,1,Race (Bl/Wh),0.030,1,Attitude,0.010,1,Belief,0.160
+154,Sherman et al. (2003),1,1,54,1,Drugs/tobacco,0.120,1,Attitude,,,
+155,Shoda & Zayas (1999),2,1,84,6,Relationships,0.060,3,Belief,0.225,3,Belief,0.217
+156,Shoda & Zayas (1999),3,2,40,8,Relationships,0.369,1,Belief,0.097,1,Belief,0.054
+157,Smoak et al. (2006),1,1,19,3,Relationships,0.341,1,Belief,0.205,3,Belief,0.004
+158,Spicer & Monteith (2001),2,1,78,7,Race (Bl/Wh),0.146,1,Attitude,,,
+159,Steffens & Koenig (2006),1,1,89,7,Personality,0.192,5,Self,0.110,5,Self,0.091
+160,Swanson et al. (2001),2,1,101,2,Consumer,0.250,2,Att/belief,0.403,2,Att/belief,0.473
+161,Swanson et al. (2001),2,2,98,1,Drugs/tobacco,0.221,2,Att/belief,0.547,2,Att/belief,0.166
+162,Swanson et al. (2001),3,3,70,1,Drugs/tobacco,0.357,2,Att/belief,0.486,2,Att/belief,0.276
+163,Teachman (2005),1,1,103,3,Clinical,0.277,1,Self,,,
+164,Teachman (2007),1,1,32,3,Clinical,0.562,1,Attitude,0.665,2,Attitude,0.340
+165,Teachman et al. (2001),1,1,67,1,Clinical,0.543,4,Attitude,0.856,1,Attitude,
+166,Teachman et al. (2007),1,1,81,3,Clinical,0.271,1,Self,0.662,3,Multiple,0.260
+167,Teachman & Woody (2003),1,1,59,3,Clinical,0.243,4,Multiple,0.649,1,Belief,0.340
+168,Thush & Wiers (2007),1,1,100,2,Drugs/tobacco,0.198,3,Multiple,0.341,3,Multiple,0.074
+169,Thush et al. (2007),1,1,81,1,Drugs/tobacco,0.075,3,Belief,0.378,3,Belief,0.023
+170,van den Wildenberg et al. (2006),1,1,48,2,Drugs/tobacco,0.183,2,Att/belief,0.132,2,Belief,0.033
+171,Vanman et al. (2004),1,1,59,1,Race (Bl/Wh),0.170,1,Attitude,0.251,1,Attitude,0.042
+172,Vanman et al. (2004),1,2,21,3,Race (Bl/Wh),0.024,1,Attitude,0.193,1,Attitude,0.106
+173,Vantomme et al. (2005),1,1,60,2,Consumer,0.224,1,Attitude,0.386,1,Attitude,0.190
+174,Vantomme et al. (2005),2,2,67,2,Consumer,0.298,1,Attitude,0.493,1,Attitude,0.330
+175,Vargas et al. (2004),4,1,226,1,Personality,0.170,1,Self,0.587,3,Multiple,0.120
+176,Verplanken et al. (2007),5,1,125,2,Personality,0.201,1,Self,0.441,1,Self,0.065
+177,Wiers et al. (2002),1,1,48,1,Drugs/tobacco,0.335,2,Att/belief,0.320,5,Multiple,0.183
+178,Wiers et al. (2005),1,1,92,5,Drugs/tobacco,0.119,2,Att/belief,0.035,2,Att/belief,0.200
+179,Wiers et al. (2007),1,1,32,2,Drugs/tobacco,0.227,3,Multiple,0.213,3,Multiple,0.109
+180,Williams et al. (2001),1,1,74,2,Consumer,0.334,1,Self,,,
+181,Yabar et al. (2006),2,1,48,1,Other intergroup,0.099,1,Attitude,0.282,1,Attitude,0.550
+182,Zayas & Shoda (2005),1,1,58,1,Relationships,0.280,1,Attitude,,,
+183,Zayas & Shoda (2005),2,2,85,3,Relationships,0.207,3,Multiple,,,
+184,Ziegert & Hanges (2005),1,1,99,1,Race (Bl/Wh),0.259,1,Attitude,0.056,2,Attitude,0.116

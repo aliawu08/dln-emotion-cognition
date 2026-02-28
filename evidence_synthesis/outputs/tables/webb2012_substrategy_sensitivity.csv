@@ -1,0 +1,3 @@
+coding,C2_code,S2_code,tau2,pct_reduction,QM,QM_p,aicc
+"DLN primary (C2=dot, S2=dot)",dot,dot,0.022336,71.1,130.79,0.0,-11.27
+"DLN alternative (C2=linear, S2=dot)",linear,dot,0.046328,40.0,76.78,0.0,-5.07

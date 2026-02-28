@@ -1,0 +1,17 @@
+dataset,scenario,is_primary,tau2_base,tau2_mod,pct_reduction,pattern_preserved,pattern_type
+Webb,acceptance=network; concentration=dot; situation_modification=linear,True,0.035037,0.010546,69.9,True,net>lin>dot
+Webb,acceptance=network; concentration=dot; situation_modification=network,False,0.035037,0.01167,66.7,True,net>lin>dot
+Webb,acceptance=network; concentration=linear; situation_modification=linear,False,0.035037,0.028671,18.2,True,net>lin>dot
+Webb,acceptance=network; concentration=linear; situation_modification=network,False,0.035037,0.029921,14.6,True,net>lin>dot
+Webb,acceptance=linear; concentration=dot; situation_modification=linear,False,0.035037,0.009416,73.1,True,net>lin>dot
+Webb,acceptance=linear; concentration=dot; situation_modification=network,False,0.035037,0.010361,70.4,True,net>lin>dot
+Webb,acceptance=linear; concentration=linear; situation_modification=linear,False,0.035037,0.025982,25.8,True,net>lin>dot
+Webb,acceptance=linear; concentration=linear; situation_modification=network,False,0.035037,0.02737,21.9,True,net>lin>dot
+Interoception,baq=network; edi_iaw=linear,True,0.133897,0.020567,84.6,True,"sign_reversal(lin+,net-)"
+Interoception,baq=network; edi_iaw=dot,False,0.133897,0.024639,81.6,True,"sign_reversal(lin+,net-)"
+Interoception,baq=dot; edi_iaw=linear,False,0.133897,0.017751,86.7,True,"sign_reversal(lin+,net-)"
+Interoception,baq=dot; edi_iaw=dot,False,0.133897,0.026312,80.3,True,"sign_reversal(lin+,net-)"
+Hoyt,behavioral=dot; physical_health=dot,True,0.03819,0.0,100.0,True,dangerous_middle(V-shape)
+Hoyt,behavioral=dot; physical_health=linear,False,0.03819,0.002264,94.1,True,dangerous_middle(V-shape)
+Hoyt,behavioral=linear; physical_health=dot,False,0.03819,0.0,100.0,True,dangerous_middle(V-shape)
+Hoyt,behavioral=linear; physical_health=linear,False,0.03819,0.002531,93.4,True,dangerous_middle(V-shape)

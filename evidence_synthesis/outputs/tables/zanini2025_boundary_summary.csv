@@ -1,0 +1,19 @@
+metric,value
+meta_analysis,"Zanini, Picano, & Spitoni (2025)"
+k_total,110
+task_variant,Standard 100-trial IGT only
+sample,Healthy participants only
+dln_stage_all,dot
+k_dot,110
+k_linear,0
+k_network,0
+between_stage_variation,none
+overall_umd,3.381
+overall_se,0.736
+q_stat,206.001
+q_df,109
+tau2,20.782
+moderators_tested,7
+any_moderator_significant,no
+dln_prediction,null (no between-stage variation)
+dln_prediction_confirmed,yes

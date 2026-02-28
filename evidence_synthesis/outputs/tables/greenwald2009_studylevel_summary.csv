@@ -1,0 +1,16 @@
+analysis,model,k,tau2,I2,Q,parameter,estimate,se,ci_lo,ci_hi
+icc_studylevel_k184,baseline,184,0.016682,0.654,528.3941,mu,0.2892,0.014,0.2616,0.3167
+icc_studylevel_k184,DLN-stage,184,0.011744,0.546,398.6548,Intercept,0.3325,0.0351,0.2632,0.4018
+icc_studylevel_k184,DLN-stage,184,0.011744,0.546,398.6548,stage[linear],-0.0729,0.038,-0.1478,0.002
+icc_studylevel_k184,DLN-stage,184,0.011744,0.546,398.6548,stage[network],0.1947,0.0597,0.077,0.3125
+icc_studylevel_k184,reduction,184,0.004937,29.6,0.0,delta_tau2,0.004937,0.0,0.0,0.0
+ecc_studylevel,baseline,156,0.093993,0.911,1751.1664,mu,0.4037,0.0274,0.3495,0.4579
+ecc_studylevel,DLN-stage,156,0.081247,0.876,1235.3663,Intercept,0.3559,0.0695,0.2186,0.4932
+ecc_studylevel,DLN-stage,156,0.081247,0.876,1235.3663,stage[linear],0.0231,0.0752,-0.1256,0.1717
+ecc_studylevel,DLN-stage,156,0.081247,0.876,1235.3663,stage[network],0.5297,0.1295,0.2739,0.7855
+ecc_studylevel,reduction,156,0.012746,13.6,0.0,delta_tau2,0.012746,0.0,0.0,0.0
+disc_studylevel,baseline,156,0.04692,0.655,449.7653,mu,-0.125,0.0237,-0.1718,-0.0782
+disc_studylevel,DLN-stage,156,0.042162,0.594,376.8627,Intercept,-0.0597,0.0661,-0.1903,0.071
+disc_studylevel,DLN-stage,156,0.042162,0.594,376.8627,stage[linear],-0.056,0.0709,-0.196,0.084
+disc_studylevel,DLN-stage,156,0.042162,0.594,376.8627,stage[network],-0.3282,0.1119,-0.5493,-0.1071
+disc_studylevel,reduction,156,0.004758,10.1,0.0,delta_tau2,0.004758,0.0,0.0,0.0

@@ -1,0 +1,6 @@
+moderator,n_levels,tau2_base,tau2_mod,pct_reduction,QM,QM_df,QM_p,aicc
+DLN stage,3,0.124573,0.112124,10.0,54.01,2,0.0,-136.03
+Gross process model,3,0.124573,0.123489,0.9,10.25,2,0.00594,-118.76
+Cognitive effort,2,0.124573,0.122351,1.8,14.44,1,0.000145,-125.61
+Gross binary (ant/resp),2,0.124573,0.123409,0.9,5.15,1,0.023189,-124.35
+Sub-strategy,15,0.124573,0.102493,17.7,122.33,14,0.0,-96.35

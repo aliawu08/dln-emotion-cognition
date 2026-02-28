@@ -1,0 +1,9 @@
+coder_name,coder_date,health_domain,domain_desc,category_assignment,rationale,confidence
+Yuanxi Jiang,21-Feb-26,biological_physiological,Biomarkers: cortisol / inflammatory / immune / cardiovascular,A,The biomarkers can be captured directly through bodily responses or single-level behaviors.,High
+Yuanxi Jiang,21-Feb-26,physical_health,Self-reported symptoms / functional status / pain,A,"The self-report, functional status and pain can reflect bodily state.",High
+Yuanxi Jiang,21-Feb-26,behavioral,Health behaviours: exercise / adherence / sleep,A,"The behaviors such as  exercise, adherence and sleep are clear actions, and the status can generally be understood through self-report.",HIgh
+Yuanxi Jiang,21-Feb-26,mental_emotional_distress,Depression / anxiety / negative affect / general distress,B,"The severity of mental/emotional distress, such as depression and anxiety, can be evaluated using a single scale at each time point.",High
+Yuanxi Jiang,21-Feb-26,risk_related_adjustment,Intrusive thoughts / avoidance / hyperarousal / maladaptive schemas,B,The symptons such as avoidance can be measured primarily on a single dimension and do not require responses across multiple life domains.,Medium
+Yuanxi Jiang,21-Feb-26,positive_psychological_health,Well-being / life satisfaction / positive affect / flourishing,C,The condition of well-being and life satisfaction are socially related and require further clarification across different social contexts and backgrounds.,High
+Yuanxi Jiang,21-Feb-26,social_functioning,Relationship quality / social support / social adjustment,C,Relationship quality and social support require more information from multiple scenarios.,High
+Yuanxi Jiang,21-Feb-26,resilience_adjustment,Post-traumatic growth / benefit finding / sense of coherence / coping self-efficacy,C,"The post-traumatic growth requires further evaluation across multiple dimensions, such as narrative and cognition.",High

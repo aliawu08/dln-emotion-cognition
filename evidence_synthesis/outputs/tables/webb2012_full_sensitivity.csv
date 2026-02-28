@@ -1,0 +1,5 @@
+scenario,S2_code,C2_code,n_dot,n_linear,n_network,tau2_reduction,QM,QM_p,aicc
+PRIMARY,dot,dot,37,171,98,10.0,54.01,0.0,-136.03
+"S2=dot,C2=linear",dot,linear,33,175,98,7.7,45.0,0.0,-131.78
+"S2=linear,C2=dot",linear,dot,26,182,98,6.7,40.3,0.0,-130.53
+"S2=linear,C2=linear",linear,linear,22,186,98,4.6,32.07,0.0,-126.77
